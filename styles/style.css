@@ -1,0 +1,283 @@
+@charset "UTF-8";
+
+/* General */
+
+body {
+	font-family: 'Karla', sans-serif;
+	text-align: center;
+
+}
+
+/* Typography */
+
+a,
+a:hover,
+a:active {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a {
+	color: black;
+	font-weight: bold;
+	border-bottom: 2px solid #FFD251;
+}
+
+a:hover,
+a:active,
+a:focus {
+	color: grey;
+}
+
+h1,
+h2 {
+	font-family: 'Amiko', sans-serif;
+	font-weight: bold;
+	letter-spacing: 0.15em;
+}
+
+h1 {
+	font-size: 1.5em;
+	text-transform: lowercase;
+}
+
+h2 {
+	font-size: 1.4em;
+	text-transform: uppercase;
+}
+
+/* Header */
+
+header {
+	text-align: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9999;
+	background-color: rgba(255,255,255,0.8);
+}
+
+.logo {
+	width: 20em;
+	margin-top: 1em;
+}
+
+/* Nav */
+
+.main-nav {
+	display: block;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	transition: 0.5 ease;
+	z-index: 1000;
+	display: none;
+}
+
+nav ul {
+	list-style-type: none;
+	padding-left: 0;
+	background-color: #FFD251;
+	height: 100vh;
+}
+
+nav li a {
+	display: block;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 2em;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+	padding: 0.5em 0;
+
+}
+
+nav li:first-of-type a {
+	padding-top: 70px;
+}
+
+/* Hamburger */
+
+.hamburger{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 15px;
+	left: 15px;
+	z-index: 9999;
+}
+
+.hamburger:hover {
+	cursor: pointer;
+}
+
+.bar,
+.bar:after,
+.bar:before {
+	height: 4px;
+	width: 40px;
+}
+
+.bar {
+	background-color: #FFD251;
+	position: relative;
+	top: 13px;
+}
+
+.bar:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 13px;
+	background-color: #FFD251;
+}
+
+.bar:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 13px;
+	background-color: #FFD251;
+}
+
+.bar, .bar:before, .bar:after {
+  transition: all 500ms ease-in-out;
+}
+
+.active .bar {
+  background-color: transparent;
+}
+
+.active .bar:before, .active .bar:after {
+  top: 0;
+}
+
+.active .bar:before {
+  transform: rotate(45deg);
+  background-color: white;
+}
+
+.active .bar:after {
+  transform: rotate(-45deg);
+  background-color: white;
+}
+
+
+/* Content */
+
+main {
+	margin-top: 120px;
+}
+
+section {
+	margin: 3em 0;
+}
+
+section p {
+	padding: 1em 1.5em;
+	margin: 0;
+}
+
+/* Layout */
+
+.col-sm {
+	margin: 1.5em 0;
+}
+
+/* Front page */
+
+.about-section {
+	background-color: #FFD251;
+/*	padding: 2.7em 0;*/
+}
+
+.about-blurb {
+	padding: 5em 0 3.5em;
+	background-color: rgba(255,255,255,0.8);
+}
+
+.col-sm a {
+	border: none;
+}
+
+.project-thumbnail {
+	border: 1px solid lightgrey;
+	width: 300px;
+}
+
+.project-thumbnail:hover,
+.project-thumbnail:active,
+.project-thumbnail:focus {
+	opacity: 0.5;
+}
+
+.col-sm p a {
+	border-bottom: 2px solid #FFD251;
+}
+
+/* About page */
+
+.profile-pic {
+	background-color: grey;
+	width: 10em;
+	height: 10em;
+	margin: 0 auto;
+}
+
+/* Project Single page */
+
+.project-process {
+	background-color: lightgrey;
+	margin: 0;
+}
+
+/* Footer */
+
+footer {
+	text-align: center;
+	height: 12em;
+	background-color: #FFD251;
+	position: relative;
+	padding-top: 2em;
+	margin: 0;
+	color: #313131;
+}
+
+footer p {
+	font-size: 1.1em;
+	letter-spacing: 0.1em;
+}
+
+footer a {
+	color: #313131;
+}
+
+footer a:hover,
+footer a:focus,
+footer a:active {
+	color: black;
+}
+
+.social {
+	width: 100%;
+	position: absolute;
+	bottom: 2.5em;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+.fa {
+	margin: 0 0.5em;
+}
+
+
+
+
+
+
+
