@@ -9,6 +9,8 @@
 		<a href="https://github.com/christeldesign" target="blank"><i class="fa fa-github-alt fa-lg" aria-hidden="true"></i></a>
 		<a href="https://codepen.io/christeldesign/"><i class="fa fa-codepen fa-lg" aria-hidden="true"></i></a>
 	</div>
+
+	<p class="copyright">Copyright 2017 Christel Chan </p>
 	
 </footer>
 

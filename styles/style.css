@@ -89,6 +89,10 @@ h1 {
 	margin-bottom: 1em;
 }
 
+.project-title {
+	font-weight: 900;
+}
+
 h2,
 .button {
 	font-size: 1.125em;
@@ -108,7 +112,8 @@ a:active {
 	cursor: pointer;
 }
 
-a {
+a,
+a:visited {
 	color: black;
 	font-weight: bold;
 }
@@ -116,7 +121,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-	color: grey;
+	color: #FFD251;
 }
 
 /* Elements */
@@ -135,7 +140,7 @@ a:focus {
 .button:hover,
 .button:active,
 .button:focus {
-	background-color: #EFEFEF;
+	color: grey;
 }
 
 /* Nav */
@@ -144,6 +149,8 @@ a:focus {
 	display: block;
 	position: fixed;
 	width: 100%;
+	height: 100vh;
+	background-color: #FFD251;
 	top: 0;
 	left: 0;
 	z-index: 1000;
@@ -155,19 +162,17 @@ a:focus {
 nav ul {
 	list-style-type: none;
 	padding-left: 0;
-	background-color: #FFD251;
-	height: 100vh;
 }
 
 nav li a {
 	display: block;
 	width: 100%;
 	text-align: center;
-	color: white;
+	color: black;
 	font-weight: bold;
-	font-size: 2em;
+	font-size: 1.5em;
 	text-transform: uppercase;
-	letter-spacing: 0.3em;
+	letter-spacing: 0.2em;
 	padding: 0.5em 0;
 
 }
@@ -176,12 +181,26 @@ nav li:first-of-type a {
 	padding-top: 70px;
 }
 
+nav .social {
+	position: absolute;
+	bottom: 3em;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+nav .social a,
+nav .social a:visited {
+	color: #444;
+}
+
+
+
 /* Hamburger */
 
 .hamburger{
-	position: absolute;
-	width: 40px;
-	height: 40px;
+	position: fixed;
+	width: 30px;
+	height: 30px;
 	top: 15px;
 	left: 15px;
 	z-index: 9999;
@@ -194,22 +213,22 @@ nav li:first-of-type a {
 .bar,
 .bar:after,
 .bar:before {
-	height: 4px;
-	width: 40px;
+	height: 3px;
+	width: 30px;
 	border-radius: 5px;
 }
 
 .bar {
 	background-color: #444;
 	position: relative;
-	top: 13px;
+	top: 15px;
 }
 
 .bar:before {
 	content: "";
 	position: absolute;
 	left: 0;
-	bottom: 13px;
+	bottom: 11px;
 	background-color: #444;
 }
 
@@ -217,7 +236,7 @@ nav li:first-of-type a {
 	content: "";
 	position: absolute;
 	left: 0;
-	top: 13px;
+	top: 11px;
 	background-color: #444;
 }
 
@@ -235,19 +254,17 @@ nav li:first-of-type a {
 
 .active .bar:before {
   transform: rotate(45deg);
-  background-color: white;
 }
 
 .active .bar:after {
   transform: rotate(-45deg);
-  background-color: white;
 }
 
 
 /* Layout */
 
 section {
-	margin-bottom: 2.5em;
+	margin-bottom: 3em;
 	padding: 0 1.5em;
 }
 
@@ -256,24 +273,13 @@ article {
 }
 
 .hero {
-	height: 35em;
-	padding: 0;
-}
-
-.col-sm {
-	margin: 2.5em auto;
-	width: 17.5em;
-	height: 13.750em;
-}
-
-.col-sm img {
-	width: 100%;
-	height: auto;
+	margin-bottom: 2em;
 }
 
 /* Front page */
 
 .home .hero {
+	height: 35em;
 	background-color: #f9f3e9;
 }
 .about-blurb {
@@ -284,13 +290,21 @@ article {
 	transform: translate(0, -50%);
 }
 
-.col-sm a {
-	border: none;
+.col-sm {
+	margin: 2.2em auto;
+	width: 17.5em;
+	height: auto;
+}
+
+.col-sm img {
+	width: 100%;
+	height: auto;
 }
 
 .project-thumbnail {
 	border: 1px solid lightgrey;
 	width: 300px;
+	margin-bottom: 1em;
 }
 
 .project-thumbnail:hover,
@@ -302,14 +316,18 @@ article {
 /* Project Single page */
 
 .single .hero {
-	height: 14.5em;
+	height: 30vh;
+	background-image: url("../images/andrews-portfolio/ap-header-mobile.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 .process {
 	background-color: #FCFAF5;
-	padding: 2.5em 1.5em;
+	padding-top: 2.5em;
+	padding-bottom: 2.5em;
 }
-
 
 /* About page */
 
@@ -326,7 +344,7 @@ footer {
 	height: 18em;
 	background-color: #313131;
 	position: relative;
-	padding-top: 4em;
+	padding-top: 3em;
 	margin: 0;
 }
 
@@ -336,16 +354,17 @@ footer h2 {
 }
 
 footer h1 {
+	font-size: 1.3em;
 	margin-bottom: 0;
 }
 
 footer h2 {
-	font-size: 0.875em;
+	font-size: 0.7em;
 	letter-spacing: 0.3em;
 }
 
 footer p {
-	font-size: 1.1em;
+	font-size: 1em;
 	letter-spacing: 0.1em;
 	color: #FFD251;
 	margin-top: 3em;
@@ -363,16 +382,64 @@ footer a:active {
 }
 
 
-.social {
+footer .social {
 	width: 100%;
-	position: absolute;
-	bottom: 3em;
-	left: 50%;
-	transform: translate(-50%, 0);
+	margin-top: 1em;
 }
 
 .fa {
 	margin: 0 0.5em;
+}
+
+.copyright {
+	display: block;
+	width: 100%;
+	color: grey;
+	text-transform: lowercase;
+	font-size: 0.7em;
+	position: absolute;
+	bottom: 1.2em;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+/*------------------------ Media Queries ---------------------------*/
+
+@media screen and (min-width: 40em){
+
+	.single .hero {
+		height: 35vh;
+		background-image: url("../images/andrews-portfolio/ap-header.jpg");
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	}
+
+	section {
+		padding: 0 3em;
+	}
+
+}
+
+@media screen and (min-width: 62em){
+
+	.single .hero {
+		height: 90vh;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+	}
+	
+	section p {
+		width: 60em;
+		margin: 0 auto;
+	}
+
+
+	.col-sm {
+		margin: 1.5em;
+	}
 }
 
 
