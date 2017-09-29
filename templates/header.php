@@ -14,10 +14,10 @@
 
 <header>
 
-<!-- <div class="hamburger">
+<div class="hamburger">
 	<div class="bar"></div>
 </div>
- -->
+
 <nav class="main-nav">
 
 	<ul>
@@ -39,10 +39,5 @@
 		<a href="https://codepen.io/christeldesign/"><i class="fa fa-codepen fa-2x" aria-hidden="true"></i></a>
 	</div>
 </nav>
-
-<div class="site-branding">
-	<div class="logo"></div>
-	<img src="images/logo.png" class="logo">
-</div>
 
 </header>
