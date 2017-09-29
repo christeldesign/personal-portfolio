@@ -1,34 +1,48 @@
 <?php 
 	$pageTitle = "Andrew's Portfolio Project - Christel Chan's Portfolio";
+	$pageClass = 'single ap';
 	include ('templates/header.php');
 ?>
 
 <main>
 
-<section class="project-overview">
+<section class="hero">
 
-	<div class="container">
-		<div class="row">
-			<div class="col-md">
-				<div class="project-thumbnail">PROJECT THUMBNAIL</div>
-			</div>
-			<div class="col-md">
-				<p class="project-blurb">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-			</div>
-			
-		</div>
-	</div>
-	
+	<img src="images/andrews-portfolio/ap-header-mobile.jpg" alt="Andrew's Portfolio">
+
+</section>
+
+<section class="project-blurb">
+	<h1>Andrew's Portfolio</h1>
+	<div class="tools"></div>
+	<p>A one-page portfolio website for a local electrical engineer to display his achievements. The scope of this project was to practice developing responsive designs using several techniques we learnt in our BCIT program, such as media queries, picture elements, and more. I developed complex custom animation based on the client’s request, and optimized them for different device sizes using conditional jQuery.</p>
+	<a class="button" href="">View Live</a>
+
+</section>
+
+<section class="process">
+	<h1>Process</h1>
+
+	<article>
+		<h2>Ideation</h2>
+		<p>I chose to create a website for someone else to gain as much experience as possible working with a client and to practice creating a website that conveyed the right message.</p> 
+	</article>
+
+	<article>
+		<h2>Design</h2>
+		<p>The client had a clear vision of the various animations he wanted on his website, but was open to design choices as long as they conveyed a “friendly but professional” vibe. We agreed that the first style tile had a more cohesive colour palette and font choice, so I designed mockups based on it. </p>
+	</article>
+
+	<h2>Development</h2>
+</section>	
+
+<section class="final">
+	<h1>Final Website</h1>
+	<a class="button" href="">View Live</a>
 </section>
 		
-<section class="project-process">
-	<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-
-</section>
-
 </main>
 
 <?php 
 	include ('templates/footer.php');
 ?>
-

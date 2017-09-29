@@ -1,11 +1,13 @@
 <footer>
-	<h1>Say hello!</h1>
+	<h1>Christel Chan</h1>
+	<h2>Front-End Web Developer</h2>
+
 	<p>christelyhchan@gmail.com</p>
 
 	<div class="social">
-		<a href="https://www.linkedin.com/in/christelchan/" target="blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
-		<a href="https://github.com/christeldesign" target="blank"><i class="fa fa-github-alt fa-2x" aria-hidden="true"></i></a>
-		<a href="https://codepen.io/christeldesign/"><i class="fa fa-codepen fa-2x" aria-hidden="true"></i></a>
+		<a href="https://www.linkedin.com/in/christelchan/" target="blank"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
+		<a href="https://github.com/christeldesign" target="blank"><i class="fa fa-github-alt fa-lg" aria-hidden="true"></i></a>
+		<a href="https://codepen.io/christeldesign/"><i class="fa fa-codepen fa-lg" aria-hidden="true"></i></a>
 	</div>
 	
 </footer>

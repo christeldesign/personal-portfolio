@@ -5,12 +5,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700|Amiko:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700|Lato:700" rel="stylesheet">
 	<link rel="stylesheet" href="styles/font-awesome/css/font-awesome.min.css">
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />
 </head>
 
-<body>
+<body class= "<?php echo $pageClass ?>">
 
 <header>
 
@@ -24,12 +24,9 @@
 		<li>
 			<a href="index.php">Work</a>
 		</li>
-<!-- 		<li>
+		<li>
 			<a href="my-story.php">My Story</a>
 		</li>
-		<li>
-			<a href="contact.php">Contact</a>
-		</li> -->
 	</ul>
 
 	<div class="social">
