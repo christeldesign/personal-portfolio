@@ -140,7 +140,7 @@ a:focus {
 .button:hover,
 .button:active,
 .button:focus {
-	color: grey;
+	color: #FFD251;
 }
 
 /* Nav */
@@ -199,10 +199,10 @@ nav .social a:visited {
 
 .hamburger{
 	position: fixed;
-	width: 30px;
-	height: 30px;
-	top: 15px;
-	left: 15px;
+	width: 25px;
+	height: 25px;
+	top: 10px;
+	left: 10px;
 	z-index: 9999;
 }
 
@@ -214,7 +214,7 @@ nav .social a:visited {
 .bar:after,
 .bar:before {
 	height: 3px;
-	width: 30px;
+	width: 25px;
 	border-radius: 5px;
 }
 
@@ -228,7 +228,7 @@ nav .social a:visited {
 	content: "";
 	position: absolute;
 	left: 0;
-	bottom: 11px;
+	bottom: 9px;
 	background-color: #444;
 }
 
@@ -236,7 +236,7 @@ nav .social a:visited {
 	content: "";
 	position: absolute;
 	left: 0;
-	top: 11px;
+	top: 9px;
 	background-color: #444;
 }
 
@@ -283,12 +283,20 @@ article {
 	background-color: #f9f3e9;
 	padding: 0;
 }
+
 .about-blurb {
-	padding: 4em 1.5em 3.5em;
+	padding: 3em 1em;
 	background-color: white;
 	position: relative;
 	top: 50%;
 	transform: translate(0, -50%);
+}
+
+.welcome-banner {
+	position: absolute;
+	left: 0;
+	top: -2.1em;
+	padding: 0 1em;
 }
 
 .col-sm {
@@ -306,6 +314,8 @@ article {
 	border: 1px solid lightgrey;
 	width: 300px;
 	margin-bottom: 1em;
+	opacity: 0;
+	transition: all 0.5s ease;
 }
 
 .project-thumbnail:hover,
@@ -314,10 +324,14 @@ article {
 	opacity: 0.5;
 }
 
+.col-sm h3 {
+	display: none;
+}
+
 /* Project Single page */
 
 .single .hero {
-	height: 30vh;
+	height: 33vh;
 	background-image: url("../images/andrews-portfolio/ap-header-mobile.jpg");
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -409,7 +423,7 @@ footer .social {
 @media screen and (min-width: 40em){
 
 	.single .hero {
-		height: 35vh;
+		height: 70vh;
 		background-image: url("../images/andrews-portfolio/ap-header.jpg");
 		background-size: contain;
 		background-repeat: no-repeat;

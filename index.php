@@ -9,6 +9,7 @@
 <section class="hero">
 
 		<article class="about-blurb">
+			<img src="images/welcome-mobile.png" alt="Hello and welcome message" class="welcome-banner">
 			<p>My name is Christel and I am an enthusiastic front-end developer with hands-on project experience and a fervent desire to create highly functional and customized websites that are also beautiful. A graduate of the Technical Web Designer program at BCIT, a six-month, intensive program exploring front-end design, responsive design, custom Wordpress theme development and more. A lover of being creative, art & design, and big dogs.
 			</p>
 			<a href='my-story.php' class="button">More About Me</a>

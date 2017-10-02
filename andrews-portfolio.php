@@ -28,22 +28,38 @@
 
 	<article>
 		<h2>Ideation</h2>
-		<p>I chose to create a website for someone else to gain as much experience as possible working with a client and to practice creating a website that conveyed the right message.</p> 
+		<p>I chose to create a website for someone else to gain as much experience as possible working with a client and to practice creating a website that conveyed the right message. A personal portfolio site was simple enough in functionality but still had room for creativity.</p> 
 	</article>
 
 	<article>
 		<h2>Design</h2>
-		<p>The client had a clear vision of the various animations he wanted on his website, but was open to design choices as long as they conveyed a “friendly but professional” vibe. We agreed that the first style tile had a more cohesive colour palette and font choice, so I designed mockups based on it. </p>
+		<p>The client had a very clear vision of the various animations he wanted on his website, so my wireframes served to plan out the structure of the website as affected by the animations.</p>
+
 		<div class="wireframe">
 			<img src="images/andrews-portfolio/ap-wireframe.png">
 		</div>
 
+ 		<p>He was open to design choices as long as they conveyed a “friendly but professional” vibe. We agreed that the first style tile had a more cohesive colour palette and font choice, so I designed mockups based on it.</p>
+
 		<div class="mockup">
 			<img src="images/andrews-portfolio/ap-styletile-1.jpg">
 		</div>
+
+		<div class="mockup">
+			<img src="images/andrews-portfolio/ap-styletile-2.png">
+		</div>
+
 	</article>
 
 	<h2>Development</h2>
+
+	<p>The most challenging code to write was for the animations that the client requested:</p>
+
+	<ol>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ol>
 </section>	
 
 <section class="final">
