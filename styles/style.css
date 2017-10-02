@@ -281,6 +281,7 @@ article {
 .home .hero {
 	height: 35em;
 	background-color: #f9f3e9;
+	padding: 0;
 }
 .about-blurb {
 	padding: 4em 1.5em 3.5em;

@@ -33,7 +33,7 @@
 		    </div>
 
 		    <div class="col-sm">
-		    	 <a href="andrews-portfolio.php"><img src="images/andrews-portfolio/ap-mockup.jpg" alt="Andrew's Portfolio Thumbnail" class="project-thumbnail"></a>
+		    	 <a href="andrews-portfolio.php"><img src="images/andrews-portfolio/ap-mockup-2.jpg" alt="Andrew's Portfolio Thumbnail" class="project-thumbnail"></a>
 		    	<h3><a href="andrews-portfolio.php" class="project-caption">Andrew's Portfolio</a></h3>
 		    </div>
 
@@ -42,17 +42,17 @@
 		 <div class="row">
 
 		 	<div class="col-sm">
-		    	<a href="http://steamwox.ca/"><img src="images/steamwox/sw-mockup.jpg" alt="SteamWox Products Thumbnail" class="project-thumbnail"></a>
+		    	<a href="http://steamwox.ca/"><img src="images/steamwox/sw-mockup-2.jpg" alt="SteamWox Products Thumbnail" class="project-thumbnail"></a>
 		    	<h3><a href="http://steamwox.ca/" class="project-caption">SteamWox Products Ltd.</a></h3>
 		    </div>
 
 		    <div class="col-sm">
-		    	<a href="http://ychan.bcitwebdeveloper.ca/jj-tutorial/index.html"><img src="images/jj-tutorial/jj-mockup.jpg" alt="jQuery Tutorial Thumbnail" class="project-thumbnail" ></a>
+		    	<a href="http://ychan.bcitwebdeveloper.ca/jj-tutorial/index.html"><img src="images/jj-tutorial/jj-mockup-2.jpg" alt="jQuery Tutorial Thumbnail" class="project-thumbnail" ></a>
 		    	<h3><a href="http://ychan.bcitwebdeveloper.ca/jj-tutorial/index.html" class="project-caption">jQuery Tutorial</a></h3>
 		    </div>
 
 		    <div class="col-sm">
-		    	<a href="http://ychan.bcitwebdeveloper.ca/"><img src="images/landing-page/lp-mockup.jpg" alt="Landing Page Thumbnail" class="project-thumbnail"></a>
+		    	<a href="http://ychan.bcitwebdeveloper.ca/"><img src="images/landing-page/lp-mockup-2.jpg" alt="Landing Page Thumbnail" class="project-thumbnail"></a>
 		    	<h3><a href="http://ychan.bcitwebdeveloper.ca/" class="project-caption">Landing Page</a></h3>
 		    </div>
 
