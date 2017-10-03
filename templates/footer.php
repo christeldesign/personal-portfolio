@@ -19,6 +19,7 @@
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
 <script type="text/javascript" src="scripts/script.js"></script>
+<script src="scripts/prism.js"></script>
  
 </body>
 </html>

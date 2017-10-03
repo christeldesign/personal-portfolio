@@ -34,7 +34,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+ul {
 	list-style: none;
 }
 blockquote, q {
@@ -78,6 +78,7 @@ body {
 
 h1,
 h2,
+h3,
 .button {
 	font-family: 'Lato', sans-serif;
 	font-weight: bold;
@@ -95,14 +96,25 @@ h1 {
 
 h2,
 .button {
-	font-size: 1.125em;
+	font-size: 1.5em;
+	margin-bottom: 1em;
+
+}
+
+h3 {
+	font-size: 1.2em;
 	text-transform: uppercase;
 	color: #444;
-	margin-bottom: 0.8em;
+	margin-bottom: 1em;
+}
+
+p,
+li {
+	font-size: 0.875em;
 }
 
 p {
-	font-size: 0.875em;
+	margin-bottom: 1em;
 }
 
 a,
@@ -121,7 +133,16 @@ a:visited {
 a:hover,
 a:active,
 a:focus {
-	color: #FFD251;
+	color: grey;
+}
+
+ol {
+	margin-bottom: 1.5em;
+	font-weight: bold;
+}
+
+strong {
+	font-weight: bold;
 }
 
 /* Elements */
@@ -130,7 +151,7 @@ a:focus {
 .button:visited {
 	display: inline-block;
 	padding: 1em 2em;
-	margin: 2.5em 0 0;
+	margin: 1.5em 0 0;
 	border: 1px solid #444;
 	background-color: white;
 	font-size: 1em;
@@ -140,7 +161,7 @@ a:focus {
 .button:hover,
 .button:active,
 .button:focus {
-	color: #FFD251;
+	color: #e8dfd6;
 }
 
 /* Nav */
@@ -150,7 +171,7 @@ a:focus {
 	position: fixed;
 	width: 100%;
 	height: 100vh;
-	background-color: #FFD251;
+	background-color: #444;
 	top: 0;
 	left: 0;
 	z-index: 1000;
@@ -164,11 +185,12 @@ nav ul {
 	padding-left: 0;
 }
 
-nav li a {
+nav li a,
+nav li a:visited {
 	display: block;
 	width: 100%;
 	text-align: center;
-	color: black;
+	color: white;
 	font-weight: bold;
 	font-size: 1.5em;
 	text-transform: uppercase;
@@ -190,10 +212,8 @@ nav .social {
 
 nav .social a,
 nav .social a:visited {
-	color: #444;
+	color: white;
 }
-
-
 
 /* Hamburger */
 
@@ -250,6 +270,7 @@ nav .social a:visited {
 
 .active .bar:before, .active .bar:after {
   top: 0;
+  background-color: white;
 }
 
 .active .bar:before {
@@ -265,6 +286,10 @@ nav .social a:visited {
 
 section {
 	margin-bottom: 3em;
+}
+
+section p,
+section ol {
 	padding: 0 1.5em;
 }
 
@@ -279,30 +304,33 @@ article {
 /* Front page */
 
 .home .hero {
-	height: 35em;
-	background-color: #f9f3e9;
-	padding: 0;
+	background-color: #e8dfd6;
+	padding: 6em 0;
 }
 
 .about-blurb {
-	padding: 3em 1em;
+	padding: 3.5em 1em 3em;
 	background-color: white;
 	position: relative;
-	top: 50%;
-	transform: translate(0, -50%);
+	margin-bottom: 0;
 }
 
 .welcome-banner {
 	position: absolute;
 	left: 0;
-	top: -2.1em;
+	top: -3em;
 	padding: 0 1em;
 }
 
+.container {
+	max-width: 90%;
+}
+
 .col-sm {
-	margin: 2.2em auto;
-	width: 17.5em;
+	margin: 1em 1%;
+	padding: 0;
 	height: auto;
+	position: relative;
 }
 
 .col-sm img {
@@ -313,7 +341,6 @@ article {
 .project-thumbnail {
 	border: 1px solid lightgrey;
 	width: 300px;
-	margin-bottom: 1em;
 	opacity: 0;
 	transition: all 0.5s ease;
 }
@@ -324,24 +351,65 @@ article {
 	opacity: 0.5;
 }
 
-.col-sm h3 {
-	display: none;
-}
-
 /* Project Single page */
 
 .single .hero {
-	height: 33vh;
-	background-image: url("../images/andrews-portfolio/ap-header-mobile.jpg");
-	background-size: contain;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	background-size: contain;
+}
+
+.ap .hero {
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: contain;
+	background-image: url("../images/andrews-portfolio/ap-header-mobile-2.jpg");
+}
+
+.sw .hero {
+	background-image: url("../images/steamwox/sw-header-mobile.jpg");
+}
+
+.jj .hero {
+	background-image: url("../images/jj-tutorial/jj-header-mobile.jpg");
+}
+
+.lp .hero {
+	background-image: url("../images/landing-page/lp-header-mobile.jpg");
 }
 
 .process {
-	background-color: #FCFAF5;
+	background-color: #faf8f7;
 	padding-top: 2.5em;
 	padding-bottom: 2.5em;
+}
+
+.single .image {
+	margin: 1em 0 2em;
+}
+
+.final img {
+	margin: 1.5em auto;
+	height: auto;
+	filter: drop-shadow(0px 0px 15px rgba(0,0,0,0.1));
+}
+
+.final .mobile {
+	max-width: 14em;
+}
+
+.final .tablet {
+	max-width: 18em;
+}
+
+.final .desktop,
+.final .business-cards {
+	max-width: 21em;
+}
+
+.sw .final img:first-of-type {
+	filter: none;
+	width: 75%;
 }
 
 /* About page */
@@ -381,13 +449,13 @@ footer h2 {
 footer p {
 	font-size: 1em;
 	letter-spacing: 0.1em;
-	color: #FFD251;
+	color: #e8dfd6;
 	margin-top: 3em;
 }
 
 footer a,
 footer a:visited {
-	color: #FFD251;
+	color: #e8dfd6;
 }
 
 footer a:hover,
@@ -422,12 +490,58 @@ footer .social {
 
 @media screen and (min-width: 40em){
 
-	.single .hero {
-		height: 70vh;
-		background-image: url("../images/andrews-portfolio/ap-header.jpg");
-		background-size: contain;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
+	.container {
+		max-width: 100%;
+	}
+
+	.col-sm {
+		margin: 1%;
+	}
+
+	.project-caption {
+		display: block;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-color: rgba(255,255,255,0.8);
+		opacity: 0;
+		transition: opacity 0.5s ease;
+		padding-top: 35%;
+		text-transform: lowercase;
+	}
+
+	.project-caption:hover,
+	.project-caption:focus,
+	.project-caption:active,
+	.project-cation:visited,
+	.project-caption {
+		color: #444;
+	}
+
+	.col-sm:hover .project-caption {
+		opacity: 1;
+	}
+
+	.hamburger {
+		top: 20px;
+		left: 20px;
+	}
+
+	.ap .hero {
+		background-image: url("../images/andrews-portfolio/ap-header-desktop.jpg");
+	}
+
+	.sw .hero {
+		background-image: url("../images/steamwox/sw-header-desktop.jpg");
+	}
+
+	.jj .hero {
+		background-image: url("../images/jj-tutorial/jj-header-desktop.jpg");
+	}
+	.lp .hero {
+		background-image: url("../images/landing-page/lp-header-desktop.jpg");
 	}
 
 	section {
@@ -438,18 +552,26 @@ footer .social {
 
 @media screen and (min-width: 62em){
 
-	.single .hero {
-		height: 90vh;
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-position: center;
+	.home .hero {
+		padding: 6em 10%;
 	}
 	
-	section p {
-		width: 60em;
+	.col-sm {
+		margin: 2%;
+	}
+
+	.container {
+		max-width: 85%;
+	}
+
+	section p,
+	section ol,
+	section img {
+		display: block;
+		max-width: 60em;
 		margin: 0 auto;
 	}
+
 }
 
 

@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Karla:400,700|Lato:700,900" rel="stylesheet">
 	<link rel="stylesheet" href="styles/font-awesome/css/font-awesome.min.css">
+	<link href="styles/prism.css" rel="stylesheet" />
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />
 </head>
 

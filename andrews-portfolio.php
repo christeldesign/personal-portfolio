@@ -1,19 +1,12 @@
 <?php 
-	$pageTitle = "Andrew's Portfolio Project - Christel Chan's Portfolio";
+	$pageTitle = "Andrew's Portfolio Project | Christel Chan's Portfolio";
 	$pageClass = 'single ap';
 	include ('templates/header.php');
 ?>
 
 <main>
 
-<div class="hero">
-
-<!-- 	<picture>
-		<source srcset="images/andrews-portfolio/ap-header.jpg" media="(min-width: 40em)">
-		<img src="images/andrews-portfolio/ap-header-mobile.jpg" alt="Andrew's Portfolio">
-	</picture> -->
-
-</div>
+<div class="hero"></div>
 
 <section class="project-blurb">
 	<h1 class="project-title">Andrew's Portfolio</h1>
@@ -24,47 +17,118 @@
 </section>
 
 <section class="process">
-	<h1>Process</h1>
+	<h2>Process</h2>
 
 	<article>
-		<h2>Ideation</h2>
+		<h3>Ideation</h3>
 		<p>I chose to create a website for someone else to gain as much experience as possible working with a client and to practice creating a website that conveyed the right message. A personal portfolio site was simple enough in functionality but still had room for creativity.</p> 
 	</article>
 
 	<article>
-		<h2>Design</h2>
+		<h3>Design</h3>
 		<p>The client had a very clear vision of the various animations he wanted on his website, so my wireframes served to plan out the structure of the website as affected by the animations.</p>
 
-		<div class="wireframe">
-			<img src="images/andrews-portfolio/ap-wireframe.png">
+		<div class="image wireframe">
+			<img src="images/andrews-portfolio/ap-wireframe.png" alt="Andrew's Portfolio Wireframe">
 		</div>
 
  		<p>He was open to design choices as long as they conveyed a “friendly but professional” vibe. We agreed that the first style tile had a more cohesive colour palette and font choice, so I designed mockups based on it.</p>
 
-		<div class="mockup">
-			<img src="images/andrews-portfolio/ap-styletile-1.jpg">
+		<div class="image mockup">
+			<img src="images/andrews-portfolio/ap-styletile-1.jpg" alt="Andrew's Portfolio Style Tile">
 		</div>
 
-		<div class="mockup">
-			<img src="images/andrews-portfolio/ap-styletile-2.png">
+		<div class="image mockup">
+			<img src="images/andrews-portfolio/ap-styletile-2.png" alt="Andrew's Portfolio Style Tile">
 		</div>
 
 	</article>
 
-	<h2>Development</h2>
+	<article>
+	<h3>Development</h3>
 
-	<p>The most challenging code to write was for the animations that the client requested:</p>
+		<p>The most challenging code to write was for the animations that the client requested:</p>
 
-	<ol>
-		<li></li>
-		<li></li>
-		<li></li>
-	</ol>
+		<ol>
+			<li>On mobile, the client wanted the hero image to shrink and the circular profile picture to minimize into a sticky header when the user scrolls.</li>
+			<li>On desktop, the client wanted the circular profile picture to float into the side bar when the user scrolls past the hero image.</li>
+		</ol>
+
+		<pre>
+			<code class="language-javascript">
+	// --------JAVASCRIPT/JQUERY CODE----------
+
+	// Header scroll event handler
+
+	const $window = $(window);
+
+	$window.scroll(function(){
+
+		const windowWidth = $window.width();
+
+		if(windowWidth >= 1024){
+
+			desktopScroll();
+
+		}else{
+
+			mobileScroll();
+		}
+	});
+
+
+	// Scroll helper functions
+
+	const $header = $('header');
+	const $title = $('.title');
+	const $profilePic = $('.profile-pic');
+	const $main = $('main');
+
+	// Desktop scroll function
+
+	function desktopScroll(){
+
+		const pos = $window.scrollTop();
+		const $stickyTitle = $('.sticky-title');
+
+		$header.css({"header": 400 - pos});
+
+		if(pos > 170){
+			$profilePic.addClass('sticky-pic');
+			$title.hide()
+				  .addClass('sticky-title');
+			$stickyTitle.show();
+			$header.fadeOut();
+			$main.addClass('main-side');
+		}
+	}
+
+	// Mobile scroll function
+
+	function mobileScroll(){
+
+		const headerHeight = $('header').height();
+		const pos = $window.scrollTop();
+
+		if(pos > headerHeight){
+			$profilePic.addClass('sticky-pic');
+			$title.addClass('sticky-title');
+		}else{
+			$profilePic.removeClass('sticky-pic');
+			$title.removeClass('sticky-title');
+		}
+	}
+			</code>
+		</pre>
+	</article>
 </section>	
 
 <section class="final">
-	<h1>Final Website</h1>
-	<a class="button" href="">View Live</a>
+	<h2>Final Website</h2>
+	<img src="images/andrews-portfolio/ap-mobile-screenshot2.png" alt="Andrew's Portfolio Mobile" class="mobile">
+	<img src="images/andrews-portfolio/ap-tablet-screenshot.png" alt="Andrew's Portfolio Tablet" class="tablet">
+	<img src="images/andrews-portfolio/ap-desktop-screenshot.png" alt="Andrew's Portfolio Desktop" class="desktop">
+	<a class="button" href="christelchan.com/andrews-portfolio">View Live</a>
 </section>
 		
 </main>
