@@ -359,10 +359,11 @@ article {
 	background-size: contain;
 }
 
+.mh .hero {
+	background-image: url("../images/maximus-hair/mh-header-mobile.jpg");
+}
+
 .ap .hero {
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: contain;
 	background-image: url("../images/andrews-portfolio/ap-header-mobile-2.jpg");
 }
 
@@ -527,6 +528,10 @@ footer .social {
 	.hamburger {
 		top: 20px;
 		left: 20px;
+	}
+
+	.mh .hero {
+		background-image: url("../images/maximus-hair/mh-header-desktop.jpg");
 	}
 
 	.ap .hero {

@@ -24,13 +24,13 @@
 		<div class="row">
 
 			<div class="col-sm">
-		    	<a href="http://christelchan.com/"><img src="images/maximus/mh-mockup.jpg" alt="Maximus Hair Salon Thumbnail" class="project-thumbnail"></a>
-		    	<a href="#" class="project-caption">Maximus Hair Salon</a>
+		    	<a href="maximus-hair.php"><img src="images/maximus-hair/mh-mockup.jpg" alt="Maximus Hair Salon Thumbnail" class="project-thumbnail"></a>
+		    	<a href="maximus-hair.php" class="project-caption">Maximus Hair Salon</a>
 		    </div>
 
 		    <div class="col-sm">
-		    	<a href="http://christelchan.com/"><img src="images/portfolio/cc-thumbnail.png" alt="My Personal Portfolio Thumbnail" class="project-thumbnail"></a>
-		    	<a href="http://christelchan.com/" class="project-caption">Christel Chan's Portfolio</a>
+		    	<a href="personal-portfolio.php"><img src="images/portfolio/cc-thumbnail.png" alt="My Personal Portfolio Thumbnail" class="project-thumbnail"></a>
+		    	<a href="personal-portfolio.php" class="project-caption">Christel Chan's Portfolio</a>
 		    </div>
 
 		    <div class="col-sm">
