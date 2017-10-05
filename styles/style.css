@@ -87,7 +87,7 @@ h3,
 
 h1 {
 	font-size: 1.5em;
-	margin-bottom: 1em;
+	margin: 1em 0;
 }
 
 .project-title {
@@ -558,11 +558,11 @@ footer .social {
 @media screen and (min-width: 62em){
 
 	.home .hero {
-		padding: 6em 10%;
+		padding: 7em 15%;
 	}
 	
 	.col-sm {
-		margin: 2%;
+		margin: 3%;
 	}
 
 	.container {
