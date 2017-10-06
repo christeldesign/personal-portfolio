@@ -10,7 +10,17 @@
 
 <section class="project-blurb">
 	<h1 class="project-title">Maximus Hair Studio</h1>
-	<div class="tools"></div>
+	<div class="tools">
+		<img src="images/icons/sketch.svg" class="svg" alt="sketch icon">
+		<img src="images/icons/photoshop.svg" class="svg" alt="photoshop icon">
+		<img src="images/icons/illustrator.svg" class="svg" alt="illustrator icon">
+		<img src="images/icons/github.svg" class="svg" alt="github icon">
+		<img src="images/icons/html.svg" class="svg" alt="html icon">
+		<img src="images/icons/css.svg" class="svg" alt="css icon">
+		<img src="images/icons/wordpress.svg" class="svg" alt="wordpress icon">
+		<img src="images/icons/sass.svg" class="svg" alt="sass icon">
+		<img src="images/icons/jquery.svg" class="svg" alt="jquery icon">
+	</div>
 	<p>A five page website for a local hair salon looking to expand their business with a new location and new website. I worked in a team of 4 for this project, and worked with gulp.js, SASS and Github to streamline our workflow. We communicated with the client frequently and collaborated effectively to create a well-functioning and modern responsive WordPress website. In this project, I worked extensively on both design and development, including registering all Custom Post Types and Taxonomies, building interactive scripts such as the hamburger menu and accordion FAQ, and more.</p>
 	<a class="button" href="http://maximus.bcitwebdeveloper.ca/" target="blank">View live</a>
 

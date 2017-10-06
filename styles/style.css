@@ -489,6 +489,21 @@ nav h1:after {
 	background-image: url("../images/landing-page/lp-header-mobile.jpg");
 }
 
+.tools {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 1em;
+}
+
+.svg {
+	max-width: 1.7em;
+	height: auto;
+	opacity: 0.8;
+	margin: 0.4em;
+}
+
+
 .process,
 .my-story {
 	background-color: #faf8f7;
@@ -796,6 +811,10 @@ footer .social {
 
 	.container .project-caption {
 		font-size: 1.1em;
+	}
+
+	.about-blurb {
+		padding: 3.5em 3em 3em;
 	}
 
 }

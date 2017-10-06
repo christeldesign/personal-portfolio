@@ -10,7 +10,13 @@
 
 <section class="project-blurb">
 	<h1 class="project-title">Andrew's Portfolio</h1>
-	<div class="tools"></div>
+	<div class="tools">
+		<img src="images/icons/photoshop.svg" class="svg" alt="photoshop icon">
+		<img src="images/icons/illustrator.svg" class="svg" alt="illustrator icon">
+		<img src="images/icons/html.svg" class="svg" alt="html icon">
+		<img src="images/icons/css.svg" class="svg" alt="css icon">
+		<img src="images/icons/jquery.svg" class="svg" alt="jquery icon">
+	</div>	
 	<p>A one-page portfolio website for a local electrical engineer to display his achievements. The scope of this project was to practice developing responsive designs using several techniques we learnt in our BCIT program, such as media queries, picture elements, and more. I developed complex custom animation based on the client’s request, and optimized them for different device sizes using conditional jQuery.</p>
 	<a class="button" href="http://ychan.bcitwebdeveloper.ca/andrew-portfolio/" target="blank">View Live</a>
 

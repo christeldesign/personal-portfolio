@@ -10,7 +10,15 @@
 
 <section class="project-blurb">
 	<h1 class="project-title">Personal Portfolio</h1>
-	<div class="tools"></div>
+	<div class="tools">
+		<img src="images/icons/sketch.svg" class="svg" alt="sketch icon">
+		<img src="images/icons/photoshop.svg" class="svg" alt="photoshop icon">
+		<img src="images/icons/illustrator.svg" class="svg" alt="illustrator icon">
+		<img src="images/icons/github.svg" class="svg" alt="github icon">
+		<img src="images/icons/html.svg" class="svg" alt="html icon">
+		<img src="images/icons/css.svg" class="svg" alt="css icon">
+		<img src="images/icons/jquery.svg" class="svg" alt="jquery icon">
+	</div>
 	<p>A portfolio website to showcase my web development and design projects. My vision was to create a clean, user-friendly website while still integrating subtle, unique elements, such as the logo animation, hand-drawn patterns, and hover effects . I also used this opportunity to develop a mobile-first experience, experiment with Bootstrap for layout,  as well as continue practicing Github for version control. </p>
 	<a class="button" href="http://christelchan.com/" target="blank">View Live</a>
 

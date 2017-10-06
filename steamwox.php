@@ -6,18 +6,17 @@
 
 <main>
 
-<div class="hero">
-
-<!-- 	<picture>
-		<source srcset="images/andrews-portfolio/ap-header.jpg" media="(min-width: 40em)">
-		<img src="images/andrews-portfolio/ap-header-mobile.jpg" alt="Andrew's Portfolio">
-	</picture> -->
-
-</div>
+<div class="hero"></div>
 
 <section class="project-blurb">
 	<h1 class="project-title">SteamWox Products</h1>
-	<div class="tools"></div>
+	<div class="tools">
+		<img src="images/icons/photoshop.svg" class="svg" alt="photoshop icon">
+		<img src="images/icons/html.svg" class="svg" alt="html icon">
+		<img src="images/icons/css.svg" class="svg" alt="css icon">
+		<img src="images/icons/wordpress.svg" class="svg" alt="wordpress icon">
+		<img src="images/icons/jquery.svg" class="svg" alt="jquery icon">
+	</div>
 	<p>As brand designer for SteamWox Products Ltd., a new local manufacturer specializing in environmentally-friendly cleaning machines, I created all branding collateral, including logos, brochures, and the company webesite. I built a full customized WordPress theme to allow the client to have appropriate control of the content.</p>
 	<a class="button" href="http://steamwox.ca/" target="blank">View Live</a>
 

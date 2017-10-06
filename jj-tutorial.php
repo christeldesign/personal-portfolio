@@ -6,18 +6,17 @@
 
 <main>
 
-<div class="hero">
-
-<!-- 	<picture>
-		<source srcset="images/andrews-portfolio/ap-header.jpg" media="(min-width: 40em)">
-		<img src="images/andrews-portfolio/ap-header-mobile.jpg" alt="Andrew's Portfolio">
-	</picture> -->
-
-</div>
+<div class="hero"></div>
 
 <section class="project-blurb">
 	<h1 class="project-title">jQuery Tutorial Website</h1>
-	<div class="tools"></div>
+	<div class="tools">
+		<img src="images/icons/photoshop.svg" class="svg" alt="photoshop icon">
+		<img src="images/icons/illustrator.svg" class="svg" alt="illustrator icon">
+		<img src="images/icons/html.svg" class="svg" alt="html icon">
+		<img src="images/icons/css.svg" class="svg" alt="css icon">
+		<img src="images/icons/jquery.svg" class="svg" alt="jquery icon">
+	</div>
 	<p>A four page website with interactive jQuery functionality that simulates folding and flying a paper airplane. The scope of this project was to create three Javascript/jQuery tutorials with embedded code snippets to teach the user how to develop any type of functionality.</p>
 	<p>I wanted my tutorials to be well integrated into a theme and not isolated, so I developed the idea of folding an origami paper airplane. The result was a four-page website, teaching users how to code a slideshow, show sequential images on a click event handler, and move an object in a projectile motion on scroll. The website is not responsive as we had not learnt responsive design at the point of this project.</p>
 	<a class="button" href="http://ychan.bcitwebdeveloper.ca/jj-tutorial/index.html" target="blank">View Live</a>

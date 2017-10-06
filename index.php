@@ -30,7 +30,7 @@
 		    </div>
 
 		    <div class="col-sm">
-		    	<a href="personal-portfolio.php"><img src="images/andrews-portfolio/ap-mockup-2.jpg" alt="My Personal Portfolio Thumbnail" class="project-thumbnail"></a>
+		    	<a href="personal-portfolio.php"><img src="images/portfolio/pp-mockup.jpg" alt="My Personal Portfolio Thumbnail" class="project-thumbnail"></a>
 		    	<a href="personal-portfolio.php" class="project-caption">Personal Portfolio</a>
 		    </div>
 
