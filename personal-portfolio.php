@@ -12,7 +12,7 @@
 	<h1 class="project-title">Personal Portfolio</h1>
 	<div class="tools"></div>
 	<p>A portfolio website to showcase my web development and design projects. My vision was to create a clean, user-friendly website while still integrating subtle, unique elements, such as the logo animation, hand-drawn patterns, and hover effects . I also used this opportunity to develop a mobile-first experience, experiment with Bootstrap for layout,  as well as continue practicing Github for version control. </p>
-	<a class="button" href="http://christelchan.com/">View Live</a>
+	<a class="button" href="http://christelchan.com/" target="blank">View Live</a>
 
 </section>
 
@@ -27,6 +27,13 @@
 	<article>
 		<h3>Design</h3>
 		<p>With the focus on showcasing the work, I designed a clean and simple wireframe.</p>
+
+		<div class="image wireframe">
+			<figure>
+				<img src="images/portfolio/pp-wireframe.png" alt="Portfolio Wireframe">
+				<figcaption>Wireframe for desktop, tablet and mobile</figcaption>
+			</figure>
+		</div>
 
 	</article>
 
@@ -110,7 +117,7 @@
 			</code>
 		</pre>
 
-		<h4>Roll out text effect | CSS</h4>
+<!-- 		<h4>Roll out text effect | CSS</h4>
 		<p>I have been quite obsessed with css pseudo elements lately, and I used an :after element to create the illusion that the thumbnail captions are being 'rolled out'. They key was to position the :after element 'right: 0' to 'roll' it out from left to right.</p>
 
 		<a class="button code-tab">Show code</a>
@@ -135,7 +142,7 @@
 		width: 0%;
 	}
 			</code>
-		</pre>
+		</pre> -->
 
 		<h4>Show/Hide code | jQuery</h4>
 
@@ -191,7 +198,9 @@
 			</div>			
 		</div>
 
-	<a class="button" href="http://christelchan.com/">View Live</a>
+	<a class="button" href="http://christelchan.com/" target="blank">View Live</a>
+	<a href="index.php#work" class="back">&lsaquo; Back to projects</a>
+
 </section>
 		
 </main>

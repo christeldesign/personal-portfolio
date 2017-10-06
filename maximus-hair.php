@@ -119,6 +119,8 @@
 		</div>
 	</div>
 	<a class="button" href="http://maximus.bcitwebdeveloper.ca/" target="blank">View live</a>
+	<a href="index.php#work" class="back">&lsaquo; Back to projects</a>
+
 </section>
 		
 </main>

@@ -178,6 +178,8 @@
 	<h2>Final Website</h2>
 	<img src="images/jj-tutorial/jj-screenshot-2.png" alt="jQuery Tutorial Screenshot">
 	<a class="button" href="http://ychan.bcitwebdeveloper.ca/jj-tutorial/index.html"  target="blank">View Live</a>
+	<a href="index.php#work" class="back">&lsaquo; Back to projects</a>
+
 </section>
 		
 </main>

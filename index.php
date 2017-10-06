@@ -20,7 +20,7 @@
 
 <section class="work">
 
-	<h1>Work</h1>
+	<h1 id="work">Work</h1>
 	<div class="container">
 		<div class="row">
 

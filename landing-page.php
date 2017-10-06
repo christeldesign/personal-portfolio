@@ -93,6 +93,8 @@
 	<h2>Final Website</h2>
 	<img src="images/landing-page/lp-screenshot.png" alt="Landing Page Screenshot">
 	<a class="button" href="http://ychan.bcitwebdeveloper.ca/"  target="blank">View Live</a>
+	<a href="index.php#work" class="back">&lsaquo; Back to projects</a>
+
 </section>
 		
 </main>

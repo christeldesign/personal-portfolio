@@ -65,7 +65,9 @@
 			</div>
 		</div>
 	</div>
-	<a class="button" href="christelchan.com/andrews-portfolio">View Live</a>
+	<a class="button" href="http://steamwox.ca/" target="blank">View Live</a>
+	<a href="index.php#work" class="back">&lsaquo; Back to projects</a>
+
 </section>
 		
 </main>

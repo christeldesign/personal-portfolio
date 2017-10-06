@@ -12,7 +12,7 @@
 	<h1 class="project-title">Andrew's Portfolio</h1>
 	<div class="tools"></div>
 	<p>A one-page portfolio website for a local electrical engineer to display his achievements. The scope of this project was to practice developing responsive designs using several techniques we learnt in our BCIT program, such as media queries, picture elements, and more. I developed complex custom animation based on the client’s request, and optimized them for different device sizes using conditional jQuery.</p>
-	<a class="button" href="http://ychan.bcitwebdeveloper.ca/andrew-portfolio/">View Live</a>
+	<a class="button" href="http://ychan.bcitwebdeveloper.ca/andrew-portfolio/" target="blank">View Live</a>
 
 </section>
 
@@ -158,6 +158,7 @@
 			</div>			
 		</div>
 	<a class="button" href="http://ychan.bcitwebdeveloper.ca/andrew-portfolio/" target="blank">View Live</a>
+	<a href="index.php#work" class="back" target="blank">&lsaquo; Back to projects</a>
 </section>
 		
 </main>

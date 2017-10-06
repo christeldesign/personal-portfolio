@@ -1,6 +1,6 @@
 <?php 
-	$pageTitle = "My Story - Christel Chan's Portfolio";
-	include ('templates/header.php');
+	$pageTitle = "My Story | Christel Chan's Portfolio";
+	$pageClass = 'about';	include ('templates/header.php');
 ?>
 
 <main>
@@ -10,7 +10,7 @@
 		<img src="images/about/christel-profile-pic.jpg" alt="Christel's Profile Picture">
 	</div>
 	<article>
-		<h1>Hello1</h1>
+		<h1>Hello!</h1>
 		<p>My name is Christel and I am a front-end web developer. After graduating with a Bachelor in Fine Arts (Illustration concentration), I was yearning for a new challenge where I could incorporate my art & design background with something technical and digital. Graduating from the Technical Web Developer program at BCIT dispelled any former fear of coding, and I am now very passionate in developing highly functional, and customized websites, while still maintaining creative flair.</p>
 	</article>
 
@@ -30,13 +30,14 @@
 				<div class="col-sm">
 					<img src="images/about/car2go.png" alt="Painting on Car2Go">
 				</div>
-			</div>
-			<div class="row">
 				<div class="col-sm">
 					<img src="images/about/dayoff.png" alt="Painting">
 				</div>
 				<div class="col-sm">
 					<img src="images/about/panda.jpg" alt="Painting">
+				</div>
+				<div class="col-sm">
+					<img src="images/about/buzzer.png" alt="The Buzzer">
 				</div>
 			</div>
 		</div>
