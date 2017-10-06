@@ -161,13 +161,6 @@ a:focus {
 	color: grey;
 }
 
-ol {
-	margin-bottom: 1.5em;
-	font-weight: bold;
-	text-align: left;
-	margin: 0 1em;
-}
-
 strong {
 	font-weight: bold;
 }
@@ -264,6 +257,14 @@ nav .social {
 	bottom: 3em;
 	left: 50%;
 	transform: translate(-50%, 0);
+}
+
+nav .social .email {
+	width: 100%;
+	display: block;
+	margin-bottom: 1.5em;
+	font-size: 1.2em;
+	font-weight: normal;
 }
 
 nav .social a,
@@ -473,6 +474,10 @@ nav h1:after {
 	background-image: url("../images/maximus-hair/mh-header-mobile.jpg");
 }
 
+.pp .hero {
+	background-image: url("../images/portfolio/pp-header-mobile.jpg");
+}
+
 .ap .hero {
 	background-image: url("../images/andrews-portfolio/ap-header-mobile-2.jpg");
 }
@@ -570,6 +575,12 @@ pre {
 	margin-bottom: 0;
 }
 
+.my-story img {
+	display: block;
+	max-width: 35em;
+	margin: 2em auto;
+}
+
 /* Footer */
 
 footer {
@@ -577,7 +588,7 @@ footer {
 	background-color: #313131;
 	position: relative;
 	padding-top: 3em;
-	margin: 0;
+	margin: 3em 0 0;
 }
 
 footer h1,
@@ -753,8 +764,17 @@ footer .social {
 }
 
 @media only screen and (min-width: 40em){
+
+	p {
+		font-size: 0.95em;
+	}
+
 	.mh .hero {
 		background-image: url("../images/maximus-hair/mh-header-desktop.jpg");
+	}
+
+	.pp .hero {
+		background-image: url("../images/portfolio/pp-header-desktop.jpg");
 	}
 
 	.ap .hero {

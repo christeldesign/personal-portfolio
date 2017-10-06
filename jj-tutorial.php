@@ -30,11 +30,9 @@
 		<h3>Ideation</h3>
 		<p>I wanted the concept of the website to drive the development, so that the final result would have a cohesive storyline. I thought of ideas like a dimsum restaurant…etc. In the end I settled on the concept of flying a paper airplane with the following tutorials:</p>
 
-		<ol>
-			<li>A slideshow to allow users to choose the origami paper of their choice</li>
-			<li>A function that “folds” the origami paper on each click to fold a paper airplane</li>
-			<li>A function that “flies” the paper airplane in a projectile motion by scrolling</li>
-		</ol>
+			<p>1. A slideshow to allow users to choose the origami paper of their choice</p>
+			<p>2. A function that “folds” the origami paper on each click to fold a paper airplane</p>
+			<p>3. A function that “flies” the paper airplane in a projectile motion by scrolling</p>
 
 	</article>
 
@@ -43,7 +41,7 @@
 		<p>I was very inspired by Japanese origami paper, so I created the patterns on Adobe Illustrator, as well as choose Japanese inspired fonts. I created each step of the folding process in each paper colour for tutorial 2. I also drew a fan for tutorial 3</p>
 
 	<div class="container">
-		<div class="row" class="airplane-steps">
+		<div class="row airplane-steps">
 			<div class="col-sm">
 				<img src="images/jj-tutorial/origami-paper-02.png" alt="Origami Paper">
 			</div>

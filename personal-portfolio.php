@@ -191,17 +191,17 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm">
-					<img src="" alt="Personal Portfolio Mobile" class="mobile">
+					<img src="images/portfolio/pp-screenshot-mobile.png" alt="Personal Portfolio Mobile" class="mobile">
 				</div>
 
 				<div class="col-sm">
-					<img src="" alt="Personal Portfolio Tablet" class="tablet">
+					<img src="images/portfolio/pp-screenshot-tablet.png" alt="Personal Portfolio Tablet" class="tablet">
 				</div>
 			</div>	
 						
 			<div class="row">
 				<div class="col-sm">
-					<img src="" alt="Personal Portfolio Desktop" class="desktop">	
+					<img src="images/portfolio/pp-screenshot-desktop-2.png" alt="Personal Portfolio Desktop" class="desktop">	
 				</div>
 			</div>			
 		</div>

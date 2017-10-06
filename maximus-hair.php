@@ -105,9 +105,6 @@
 	});
 			</code>
 		</pre>
-
-			</a>
-		</div>
 	</article>
 </section>	
 

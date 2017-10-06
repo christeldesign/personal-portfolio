@@ -31,12 +31,12 @@
 			<a href="index.php">Work</a>
 		</li>
 		<li>
-			<a href="my-story.php">My Story</a>
+			<a href="my-story.php">About Me</a>
 		</li>
 	</ul>
 
 	<div class="social">
-		<a href="mailto:christelyhchan@gmail.com"></a>
+		<a href="mailto:christelyhchan@gmail.com" class="email">christelyhchan@gmail.com</a>
 		<a href="https://www.linkedin.com/in/christelchan/" target="blank"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
 		<a href="https://github.com/christeldesign" target="blank"><i class="fa fa-github-alt fa-lg" aria-hidden="true"></i></a>
 		<a href="https://codepen.io/christeldesign/"><i class="fa fa-codepen fa-lg" aria-hidden="true"></i></a>

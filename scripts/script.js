@@ -67,7 +67,7 @@ function loadCorrectHeroSize(){
 	}else{
 		$hero.css({'min-height':$(window).width()/2.1});
 	}
-};
+}
 
 // ----------------- SEE CODE -------------------
 

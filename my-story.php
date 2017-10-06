@@ -21,31 +21,17 @@
 
 	<article>
 		<p>Here is some of my work outside of web development.</p>
+			<img src="images/about/night.png" alt="Painting">
 
-		<div class="container">
-			<div class="row">
-				<div class="col-sm">
-					<img src="images/about/night.png" alt="Painting">
-				</div>
-				<div class="col-sm">
-					<img src="images/about/car2go.png" alt="Painting on Car2Go">
-				</div>
-				<div class="col-sm">
-					<img src="images/about/dayoff.png" alt="Painting">
-				</div>
-				<div class="col-sm">
-					<img src="images/about/panda.jpg" alt="Painting">
-				</div>
-				<div class="col-sm">
-					<img src="images/about/buzzer.png" alt="The Buzzer">
-				</div>
-			</div>
-		</div>
+			<img src="images/about/car2go.png" alt="Painting on Car2Go">
+
+			<img src="images/about/dayoff.png" alt="Painting">
+
+			<img src="images/about/panda.jpg" alt="Painting">
+
 	</article>
-	
-
 </section>
-
+<a class="button" href="index.php#work">View Projects</a>
 
 </main>
 
