@@ -33,14 +33,54 @@
 
 	<article>
 		<h3>Design</h3>
+		<p>I created the houses on Adobe Illustrator, and created a mockup in Photoshop to visualize the design.</p>
+		<figure>
+			<img src="images/landing-page/lp-mockup.png" alt="Landing Page Mockup">
+			<figcaption>Landing Page mockup</figcaption>
+		</figure>
 	</article>
 
 	<article>
 	<h3>Development</h3>
+	<h4>Cloud Animation</h4>
+	<p>I created subtle cloud animation using css animation. I had ten cloud elements in total, each a different size and moving at a different spend to create the illusion of depth.</p>
 
 		<pre>
-			<code class="language-javascript">
-	
+			<code class="language-css">
+	/*-----------------------CLOUD CSS ANIMATION ---------------*/
+
+	.clouds {
+		-webkit-filter: blur(7px);
+	}
+
+	/* -- CLOUDS SLIDING RIGHT --*/
+
+	@keyframes slide-right-01 {
+		 0% {position: absolute; right: 60%; top: -160px;}
+	    100% {position: absolute; right: -250px; top: -160px;}
+	}
+
+	#cloud-right-01 {
+		opacity: 0.1;
+		width: 250px;
+		height: 85px;
+		animation: slide-right-01 200s linear infinite;
+		overflow: hidden;
+	}
+
+	@keyframes slide-right-02 {
+		 0% {position: absolute; right: 100%; top: 40px}
+	    100% {position: absolute; right: -300px; top: 40px}
+
+	 }
+
+	#cloud-right-02 {
+		opacity: 0.3;
+		width: 350px;
+		height: 103px;
+		animation: slide-right-02 100s linear infinite;
+		overflow: hidden;
+	}
 			</code>
 		</pre>
 	</article>

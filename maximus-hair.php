@@ -11,8 +11,8 @@
 <section class="project-blurb">
 	<h1 class="project-title">Maximus Hair Studio</h1>
 	<div class="tools"></div>
-	<p>A one-page portfolio website for a local electrical engineer to display his achievements. The scope of this project was to practice developing responsive designs using several techniques we learnt in our BCIT program, such as media queries, picture elements, and more. I developed complex custom animation based on the client’s request, and optimized them for different device sizes using conditional jQuery.</p>
-	<a class="button" href="">View Live</a>
+	<p>A five page website for a local hair salon looking to expand their business with a new location and new website. I worked in a team of 4 for this project, and worked with gulp.js, SASS and Github to streamline our workflow. We communicated with the client frequently and collaborated effectively to create a well-functioning and modern responsive WordPress website. In this project, I worked extensively on both design and development, including registering all Custom Post Types and Taxonomies, building interactive scripts such as the hamburger menu and accordion FAQ, and more.</p>
+	<a class="button" href="http://maximus.bcitwebdeveloper.ca/" target="blank">View live</a>
 
 </section>
 
@@ -20,115 +20,85 @@
 	<h2>Process</h2>
 
 	<article>
-		<h3>Ideation</h3>
-		<p>I chose to create a website for someone else to gain as much experience as possible working with a client and to practice creating a website that conveyed the right message. A personal portfolio site was simple enough in functionality but still had room for creativity.</p> 
+		<h3>Planning</h3>
+		<p>The client particularly wanted the website to include a gallery page with photos of past work, a FAQ to answer questions about specialty perms, as well as areas of the website that convey that the salon is welcoming of everyone and pets.</p> 
+
+		<figure>
+			<img src="images/maximus-hair/site-map.png" alt="Maximus Hair Studio Website Site Map" style="padding: 0 1em;" class="">
+			<figcaption>Sitemap created from initial information architecture</figcaption>
+		</figure>
+
 	</article>
 
 	<article>
 		<h3>Design</h3>
-		<p>The client had a very clear vision of the various animations he wanted on his website, so my wireframes served to plan out the structure of the website as affected by the animations.</p>
+		<p>We had two styles for the client to choose. Since the salon and the logo had a bit of a retro feel, we envisioned the website to infuse modern and retro together to reflect the atmosphere of the salon. We also created a version in a trendy, clean and minimalistic style. The clients chose the latter version.</p>
 
-		<div class="image wireframe">
-			<img src="images/andrews-portfolio/ap-wireframe.png" alt="Andrew's Portfolio Wireframe">
-		</div>
+		<figure>
+			<img src="images/maximus-hair/mockup-retro.jpg" alt="Maximus Hair Studio Mockup Retro">
+			<figcaption>Mockup retro version</figcaption>
+		</figure>
 
- 		<p>He was open to design choices as long as they conveyed a “friendly but professional” vibe. We agreed that the first style tile had a more cohesive colour palette and font choice, so I designed mockups based on it.</p>
-
-		<div class="image mockup">
-			<img src="images/andrews-portfolio/ap-styletile-1.jpg" alt="Andrew's Portfolio Style Tile">
-		</div>
-
-		<div class="image mockup">
-			<img src="images/andrews-portfolio/ap-styletile-2.png" alt="Andrew's Portfolio Style Tile">
-		</div>
-
+		<figure>
+			<img src="images/maximus-hair/mockup-modern.jpg" alt="Maximus Hair Studio Mockup Modern">
+			<figcaption>Mockup modern version</figcaption>
+		</figure>
 	</article>
 
 	<article>
 	<h3>Development</h3>
 
-		<p>The most challenging code to write was for the animations that the client requested:</p>
+		<p>This was byfar the largest project I had been involved in, and building a WordPress custom theme was the most obvious choice for a number of reasons: Though a small site, the sheer volume of content, from the list of services to gallery images, would greatly benefit from the organization of a CMS; the client would be able to control the content and edit anything on the front-end if necessary.</p>
 
-		<ol>
-			<li>On mobile, the client wanted the hero image to shrink and the circular profile picture to minimize into a sticky header when the user scrolls.</li>
-			<li>On desktop, the client wanted the circular profile picture to float into the side bar when the user scrolls past the hero image.</li>
-		</ol>
+		<p>Here is an example of one of the more interesting things that I coded for the project:</p>
+
+		<h4>Accordion FAQ Section</h4>
 
 		<pre>
 			<code class="language-javascript">
 	// --------JAVASCRIPT/JQUERY CODE----------
 
-	// Header scroll event handler
+		jQuery(function ($) {
 
-	const $window = $(window);
+		var $question = $('.question');
+		var $answer = $('.answer');
 
-	$window.scroll(function(){
+		$question.click(function(){
 
-		const windowWidth = $window.width();
+			// Hide all answers
+			$answer.slideUp();
 
-		if(windowWidth >= 1024){
+			// Check if this answer is already open
+			if($(this).hasClass('open')){
+				// If already open, remove 'open' class and hide answer
+				$(this).removeClass('open')
+				       .next($answer).slideUp();
+			// If it is not open...
+			}else{
+				// Remove 'open' class from all other questions
+				$question.removeClass('open');
+				// Open this answer and add 'open' class
+				$(this).addClass('open')
+				       .next($answer).slideDown();
+					   
+			}
+		});
 
-			desktopScroll();
-
-		}else{
-
-			mobileScroll();
-		}
 	});
-
-
-	// Scroll helper functions
-
-	const $header = $('header');
-	const $title = $('.title');
-	const $profilePic = $('.profile-pic');
-	const $main = $('main');
-
-	// Desktop scroll function
-
-	function desktopScroll(){
-
-		const pos = $window.scrollTop();
-		const $stickyTitle = $('.sticky-title');
-
-		$header.css({"header": 400 - pos});
-
-		if(pos > 170){
-			$profilePic.addClass('sticky-pic');
-			$title.hide()
-				  .addClass('sticky-title');
-			$stickyTitle.show();
-			$header.fadeOut();
-			$main.addClass('main-side');
-		}
-	}
-
-	// Mobile scroll function
-
-	function mobileScroll(){
-
-		const headerHeight = $('header').height();
-		const pos = $window.scrollTop();
-
-		if(pos > headerHeight){
-			$profilePic.addClass('sticky-pic');
-			$title.addClass('sticky-title');
-		}else{
-			$profilePic.removeClass('sticky-pic');
-			$title.removeClass('sticky-title');
-		}
-	}
 			</code>
 		</pre>
+
+			</a>
+		</div>
 	</article>
 </section>	
 
 <section class="final">
 	<h2>Final Website</h2>
-	<img src="images/andrews-portfolio/ap-mobile-screenshot2.png" alt="Andrew's Portfolio Mobile" class="mobile">
-	<img src="images/andrews-portfolio/ap-tablet-screenshot.png" alt="Andrew's Portfolio Tablet" class="tablet">
-	<img src="images/andrews-portfolio/ap-desktop-screenshot.png" alt="Andrew's Portfolio Desktop" class="desktop">
-	<a class="button" href="christelchan.com/andrews-portfolio">View Live</a>
+	<img src="images/maximus-hair/mh-screenshot-mobile.png" alt="Andrew's Portfolio Mobile" class="mobile">
+	<img src="images/maximus-hair/mh-screenshot-tablet.png" alt="Andrew's Portfolio Tablet" class="tablet">
+	<img src="images/maximus-hair/mh-screenshot-desktop.png" alt="Andrew's Portfolio Desktop" class="desktop">
+	<a class="button" href="http://maximus.bcitwebdeveloper.ca/" target="blank">View live</a>
 </section>
 		
 </main>

@@ -35,18 +35,6 @@
 		<h3>Design</h3>
 		<p>Since the company is relatively new, the logo is straightforward to emphasize the company name. I used shades of blue and green to emphasize the eco-friendly appeal of the brand, while the rounded logo font and soft steam-like shapes allude to the steam used in SteamWox cleaning machines.</p>
 	</article>
-
-	<article>
-	<h3>Development</h3>
-
-		<p>I registered a Custom Post Type called Products to add the company products. </p>
-
-		<pre>
-			<code class="language-javascript">
-	
-			</code>
-		</pre>
-	</article>
 </section>	
 
 <section class="final">

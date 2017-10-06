@@ -1,7 +1,6 @@
 // ----------------- HAMBURGER MENU -------------------
 
 // HTML elements
-
 const $hamburger = $('.hamburger');
 const $nav = $('.main-nav');
 
@@ -15,10 +14,18 @@ $hamburger.click(function(){
 // If page is frontpage...
 if( $('body').hasClass('home')){
 
-	// Fade in projects when user scrolls
-	$(window).scroll(function(){
-		fadeInProjects();
-	});
+	// And if on mobile...
+	if($(window).width() < 575){
+
+		// Fade in projects when user scrolls
+		$(window).scroll(function(){
+			fadeInProjects();
+		});
+
+	}else{
+		// Otherwise, just show projects on normal
+		$('.project-thumbnail').css('opacity','1');
+	}
 }
 
 // Helper function
