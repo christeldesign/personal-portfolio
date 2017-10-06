@@ -34,15 +34,22 @@
 		<h3>Design</h3>
 		<p>We had two styles for the client to choose. Since the salon and the logo had a bit of a retro feel, we envisioned the website to infuse modern and retro together to reflect the atmosphere of the salon. We also created a version in a trendy, clean and minimalistic style. The clients chose the latter version.</p>
 
-		<figure>
-			<img src="images/maximus-hair/mockup-retro.jpg" alt="Maximus Hair Studio Mockup Retro">
-			<figcaption>Mockup retro version</figcaption>
-		</figure>
-
-		<figure>
-			<img src="images/maximus-hair/mockup-modern.jpg" alt="Maximus Hair Studio Mockup Modern">
-			<figcaption>Mockup modern version</figcaption>
-		</figure>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm">
+					<figure>
+						<img src="images/maximus-hair/mockup-retro.jpg" alt="Maximus Hair Studio Mockup Retro">
+						<figcaption>Mockup retro version</figcaption>
+					</figure>
+				</div>
+				<div class="col-sm">
+					<figure>
+						<img src="images/maximus-hair/mockup-modern.jpg" alt="Maximus Hair Studio Mockup Modern">
+						<figcaption>Mockup modern version</figcaption>
+					</figure>
+				</div>
+			</div>
+		</div>
 	</article>
 
 	<article>
@@ -53,6 +60,7 @@
 		<p>Here is an example of one of the more interesting things that I coded for the project:</p>
 
 		<h4>Accordion FAQ Section</h4>
+		<a class="button code-tab">Show code</a>
 
 		<pre>
 			<code class="language-javascript">
@@ -95,9 +103,21 @@
 
 <section class="final">
 	<h2>Final Website</h2>
-	<img src="images/maximus-hair/mh-screenshot-mobile.png" alt="Andrew's Portfolio Mobile" class="mobile">
-	<img src="images/maximus-hair/mh-screenshot-tablet.png" alt="Andrew's Portfolio Tablet" class="tablet">
-	<img src="images/maximus-hair/mh-screenshot-desktop.png" alt="Andrew's Portfolio Desktop" class="desktop">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm">
+				<img src="images/maximus-hair/mh-screenshot-mobile.png" alt="Andrew's Portfolio Mobile" class="mobile">
+			</div>
+			<div class="col-sm">
+				<img src="images/maximus-hair/mh-screenshot-tablet.png" alt="Andrew's Portfolio Tablet" class="tablet">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm">
+				<img src="images/maximus-hair/mh-screenshot-desktop.png" alt="Andrew's Portfolio Desktop" class="desktop">
+			</div>
+		</div>
+	</div>
 	<a class="button" href="http://maximus.bcitwebdeveloper.ca/" target="blank">View live</a>
 </section>
 		

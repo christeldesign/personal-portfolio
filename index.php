@@ -6,16 +6,17 @@
 
 <main>
 
-<section class="hero">
+<div class="hero">
 
 		<article class="about-blurb">
-			<img src="images/welcome-mobile.png" alt="Hello and welcome message" class="welcome-banner">
+			<h1>Christel Chan</h1>
+			<h2>Front-End Web Developer</h2>
 			<p>My name is Christel and I am an enthusiastic front-end developer with hands-on project experience and a fervent desire to create highly functional and customized websites that are also beautiful. A graduate of the Technical Web Designer program at BCIT, a six-month, intensive program exploring front-end design, responsive design, custom Wordpress theme development and more. A lover of being creative, art & design, and big dogs.
 			</p>
 			<a href='my-story.php' class="button">More About Me</a>
 		</article>
 	
-</section>
+</div>
 
 <section class="work">
 
@@ -29,12 +30,12 @@
 		    </div>
 
 		    <div class="col-sm">
-		    	<a href="personal-portfolio.php"><img src="images/portfolio/cc-thumbnail.png" alt="My Personal Portfolio Thumbnail" class="project-thumbnail"></a>
-		    	<a href="personal-portfolio.php" class="project-caption">Christel Chan's Portfolio</a>
+		    	<a href="personal-portfolio.php"><img src="images/andrews-portfolio/ap-mockup-2.jpg" alt="My Personal Portfolio Thumbnail" class="project-thumbnail"></a>
+		    	<a href="personal-portfolio.php" class="project-caption">Personal Portfolio</a>
 		    </div>
 
 		    <div class="col-sm">
-		    	 <a href="andrews-portfolio.php"><img src="images/andrews-portfolio/ap-mockup-2.jpg" alt="Andrew's Portfolio Thumbnail" class="project-thumbnail"></a>
+		    	<a href="andrews-portfolio.php"><img src="images/andrews-portfolio/ap-mockup-2.jpg" alt="Andrew's Portfolio Thumbnail" class="project-thumbnail"></a>
 		    	<a href="andrews-portfolio.php" class="project-caption">Andrew's Portfolio</a>
 		    </div>
 
@@ -44,7 +45,7 @@
 
 		 	<div class="col-sm">
 		    	<a href="steamwox.php"><img src="images/steamwox/sw-mockup-2.jpg" alt="SteamWox Products Thumbnail" class="project-thumbnail"></a>
-		    	<a href="steamwox.php" class="project-caption">SteamWox Products Ltd.</a>
+		    	<a href="steamwox.php" class="project-caption">SteamWox Products</a>
 		    </div>
 
 		    <div class="col-sm">

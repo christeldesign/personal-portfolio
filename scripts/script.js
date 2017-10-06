@@ -37,8 +37,8 @@ function fadeInProjects(){
 
 	$projectThumbnail.each(function(i){
 		if( $(window).scrollTop() > (( $(this).offset().top ) - 300)){
-			$(this).css({'opacity':'1'});
-				   // .parent().next().slideDown();
+			$(this).css({'opacity':'1'})
+				   .parent().next().css('opacity', '1');
 		}
 	});
 }
@@ -68,3 +68,31 @@ function loadCorrectHeroSize(){
 		$hero.css({'min-height':$(window).width()/2.1});
 	}
 };
+
+// ----------------- SEE CODE -------------------
+
+
+var $tab = $('.code-tab');
+var $code = $('pre');
+
+$tab.click(function(){
+
+	// Check if this code is already shown
+	if($(this).hasClass('open')){
+		// If already shown, remove 'open' class and hide answer
+		$(this).removeClass('open')
+			   .text('Show code')
+		       .next($code).slideUp();
+	// If it is not open...
+	}else{
+		// Remove 'open' class from all other questions
+		$tab.removeClass('open');
+		// Open this answer and add 'open' class
+		$(this).addClass('open')
+			   .text('Hide code')
+		       .next($code).slideDown();
+			   
+	}
+});
+
+

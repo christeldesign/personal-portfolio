@@ -20,7 +20,7 @@
 	<div class="tools"></div>
 	<p>A four page website with interactive jQuery functionality that simulates folding and flying a paper airplane. The scope of this project was to create three Javascript/jQuery tutorials with embedded code snippets to teach the user how to develop any type of functionality.</p>
 	<p>I wanted my tutorials to be well integrated into a theme and not isolated, so I developed the idea of folding an origami paper airplane. The result was a four-page website, teaching users how to code a slideshow, show sequential images on a click event handler, and move an object in a projectile motion on scroll. The website is not responsive as we had not learnt responsive design at the point of this project.</p>
-	<a class="button" href="#" target="blank">View Live</a>
+	<a class="button" href="http://ychan.bcitwebdeveloper.ca/jj-tutorial/index.html" target="blank">View Live</a>
 
 </section>
 
@@ -43,17 +43,26 @@
 		<h3>Design</h3>
 		<p>I was very inspired by Japanese origami paper, so I created the patterns on Adobe Illustrator, as well as choose Japanese inspired fonts. I created each step of the folding process in each paper colour for tutorial 2. I also drew a fan for tutorial 3</p>
 
+	<div class="container">
+		<div class="row" class="airplane-steps">
+			<div class="col-sm">
+				<img src="images/jj-tutorial/origami-paper-02.png" alt="Origami Paper">
+			</div>
+			<div class="col-sm">
+				<img src="images/jj-tutorial/steps-2-04.png" alt="Airplane Folding Step">
+			</div>
+		</div>
+	</div>
 		
-		<img src="images/jj-tutorial/origami-paper-02.png" alt="Origami Paper">
-		<img src="images/jj-tutorial/steps-2-04.png" alt="Airplane Folding Step">
-		<img src="images/jj-tutorial/airplane-02.png" alt="Paper airplane">
 		
 	</article>
 
 	<article>
 	<h3>Development</h3>
-		<h4>Tutorial 1:</h4>
+		<h4>Tutorial 1 | jQuery</h4>
 		<p>I used the Cycle2 jQuery library to create my slideshow. One customized trick I had to code was to store the origami pattern choice of the user in Session to be used in the second tutorial.</p>
+
+		<a class="button code-tab">Show code</a>
 
 		<pre>
 			<code class="language-javascript">
@@ -89,8 +98,10 @@
 			</code>
 		</pre>
 
-		<h4>Tutorial 2:</h4>
+		<h4>Tutorial 2 | jQuery</h4>
 		<p>I built a function on click event to show the next image in a array of images.</p>
+
+		<a class="button code-tab">Show code</a>
 
 		<pre>
 			<code class="language-javascript">
@@ -127,8 +138,10 @@
 			</code>
 		</pre>
 
-		<h4>Tutorial 3:</h4>
+		<h4>Tutorial 3 | jQuery</h4>
 		<p>I coded a scroll event function that moves an element in a projective motion according to the scroll position. I used cos and sin math functions for the equation.</p>
+
+		<a class="button code-tab">Show code</a>
 
 		<pre>
 			<code class="language-javascript">
@@ -164,7 +177,7 @@
 <section class="final">
 	<h2>Final Website</h2>
 	<img src="images/jj-tutorial/jj-screenshot-2.png" alt="jQuery Tutorial Screenshot">
-	<a class="button" href="christelchan.com/andrews-portfolio">View Live</a>
+	<a class="button" href="http://ychan.bcitwebdeveloper.ca/jj-tutorial/index.html"  target="blank">View Live</a>
 </section>
 		
 </main>

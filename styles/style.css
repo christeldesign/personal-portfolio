@@ -97,7 +97,7 @@ h1 {
 h2,
 .button {
 	font-size: 1.5em;
-	margin-bottom: 0.5em;
+	margin-bottom: 1em;
 
 }
 
@@ -108,17 +108,20 @@ h3 {
 	margin: 1em auto;
 }
 
+h1:after,
 h3:after{
 	content: "";
 	display: block;
 	width: 3.5em;
 	height: 2px;
-	background-color: #ba5f50;
+	background-color: #aaa3a2;
 	margin: 0.8em auto 1em;
 }
 
 h4 {
 	font-weight: bold;
+	margin: 1.5em 0 0.5em;
+	font-size: 1.1em;
 }
 
 p,
@@ -136,6 +139,7 @@ figcaption {
 
 p {
 	margin-bottom: 1em;
+	position: relative;
 }
 
 a,
@@ -185,8 +189,8 @@ strong {
 .button:hover,
 .button:active,
 .button:focus {
-	color: #ba5f50;
-	border: 1px solid #ba5f50;
+	color: #aaa3a2;
+	border: 1px solid #aaa3a2;
 }
 
 .coming-soon {
@@ -216,9 +220,9 @@ figure {
 	top: 0;
 	left: 0;
 	z-index: 1000;
-	transition: 0.5 ease;
 	z-index: 1000;
 	display: none;
+	color: white;
 }
 
 nav ul {
@@ -244,6 +248,12 @@ nav li:first-of-type a {
 	padding-top: 70px;
 }
 
+nav li a:hover,
+nav li a:focus,
+nav li a:active {
+	color: #aaa3a2;
+}
+
 nav .social {
 	position: absolute;
 	bottom: 3em;
@@ -254,6 +264,16 @@ nav .social {
 nav .social a,
 nav .social a:visited {
 	color: white;
+}
+
+nav .social a:hover,
+nav .social a:focus,
+nav .social a:active {
+	color: #aaa3a2;
+}
+
+nav h2 {
+	color: #ccc;
 }
 
 /* Hamburger */
@@ -310,18 +330,16 @@ nav .social a:visited {
 }
 
 .active .bar:before, .active .bar:after {
-  top: 0;
-  background-color: white;
+	background-color: white;
 }
 
 .active .bar:before {
-  transform: rotate(45deg);
+	transform: translate(0, 9px) rotate(135deg);
 }
 
 .active .bar:after {
-  transform: rotate(-45deg);
+	transform: translate(0, -9px) rotate(-135deg);
 }
-
 
 /* Layout */
 
@@ -335,11 +353,12 @@ section:last-of-type{
 
 section p,
 section ol {
-	padding: 0 1.5em 1em;
+	padding: 0 1.5em;
+	margin-bottom: 0;
 }
 
-article {
-	margin: 2.5em auto;
+article:not(.about-blurb) {
+	margin: 2em auto;
 }
 
 article:last-of-type {
@@ -362,6 +381,33 @@ article:last-of-type {
 	background-color: white;
 	position: relative;
 	margin-bottom: 0;
+}
+
+.about-blurb h1,
+nav h1 {
+	font-size: 2em;
+	margin: 0 auto;
+}
+
+nav h1 {
+	margin-top: 2em;
+}
+
+.about-blurb h2,
+nav h2 {
+	text-transform: uppercase;
+	font-size: 1em;
+	letter-spacing: 3px;
+	margin: 0.5em auto 2em;
+}
+
+.about-blurb h1:after,
+nav h1:after {
+	margin: 0.3em auto 0.4em;
+}
+
+.about-blurb .button {
+	margin-top: 1em;
 }
 
 .welcome-banner {
@@ -400,6 +446,17 @@ article:last-of-type {
 	opacity: 0.5;
 }
 
+.container .project-caption {
+	font-size: 1.2em;
+	font-weight: normal;
+	color: grey;
+	letter-spacing: 1px;
+	margin-top: 0.5em;
+	display: block;
+	opacity: 0;
+	transition: opacity 1s ease;
+}
+
 /* Project Single page */
 
 .single .hero {
@@ -428,10 +485,11 @@ article:last-of-type {
 	background-image: url("../images/landing-page/lp-header-mobile.jpg");
 }
 
-.process {
+.process,
+.my-story {
 	background-color: #faf8f7;
 	padding-top: 2.5em;
-	padding-bottom: 1em;
+	padding-bottom: 3em;
 }
 
 .single .image {
@@ -439,42 +497,60 @@ article:last-of-type {
 }
 
 .final img {
-	margin: 1.5em auto;
+	margin: 0 auto;
 	height: auto;
+	-webkit-filter: rop-shadow(0px 0px 15px rgba(0,0,0,0.1));
 	filter: drop-shadow(0px 0px 15px rgba(0,0,0,0.1));
 }
 
 .final .mobile {
-	max-width: 14em;
+	max-width: 40%;
 }
 
-.final .tablet {
-	max-width: 18em;
-}
-
-.final .desktop,
+.final .tablet,
 .final .business-cards {
-	max-width: 21em;
+	max-width: 60%;
 }
 
-.sw .final img:first-of-type {
-	filter: none;
-	width: 75%;
+.final .desktop {
+	max-width: 90%;
+}
+
+.see-code {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 1em;
+}
+
+pre {
+	display: none;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.process .code-tab {
+	padding: 1em 1.2em;
+	margin: 1.5em 0;
+	border: 1px solid grey;
+	background-color: transparent;
+	font-size: 0.7em;
 }
 
 /* About page */
 
 .profile-pic {
-	background-color: grey;
 	width: 10em;
 	height: 10em;
 	margin: 0 auto;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-top: 5em;
 }
 
 /* Footer */
 
 footer {
-	height: 18em;
+	height: 21em;
 	background-color: #313131;
 	position: relative;
 	padding-top: 3em;
@@ -491,6 +567,10 @@ footer h1 {
 	margin-bottom: 0;
 }
 
+footer h1:after {
+	margin: 0.5em auto 0.7em;
+}
+
 footer h2 {
 	font-size: 0.7em;
 	letter-spacing: 0.3em;
@@ -500,7 +580,7 @@ footer p {
 	font-size: 1em;
 	letter-spacing: 0.1em;
 	color: #e8dfd6;
-	margin-top: 3em;
+	margin-top: 2em;
 }
 
 footer a,
@@ -517,7 +597,7 @@ footer a:active {
 
 footer .social {
 	width: 100%;
-	margin-top: 1em;
+	margin-top: 0.5em;
 }
 
 .fa {
@@ -538,14 +618,15 @@ footer .social {
 
 /*------------------------ Media Queries ---------------------------*/
 
-@media screen and (min-width: 40em){
+@media screen and (min-width: 36em){
 
 	.container {
 		max-width: 100%;
 	}
 
 	.col-sm {
-		margin: 1%;
+		margin: 1% 1% 2em;
+		position: relative;
 	}
 
 /*	.project-caption {
@@ -574,11 +655,82 @@ footer .social {
 		opacity: 1;
 	}*/
 
+	.container .project-caption {
+		text-align: left;
+		padding-left: 0.5em;
+		font-size: 0.9em;
+		opacity: 1;
+	}
+
+	.project-caption:after {
+		content: "";
+		display: block;
+		background-color: white;
+		height: 1.5em;
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		transition: all 1s ease;
+		float: right;
+		text-align: right;
+	}
+
+	.col-sm a:hover ~ .project-caption:after {
+		width: 0%;
+	}
+
+	.col-sm:hover img {
+		-webkit-filter: opacity(0.4);
+		filter: opacity(0.4);
+	}
+
 	.hamburger {
 		top: 20px;
 		left: 20px;
 	}
 
+	section {
+		padding: 0 3em;
+	}
+
+	.final .mobile {
+		max-width: 75%;
+	}
+
+	.final .tablet,
+	.final .business-cards {
+		max-width: 100%;
+	}
+
+	.final .desktop {
+		max-width: 100%;
+	}
+
+	.final img {
+		margin: 2em auto 0;
+	}
+
+	.mobile,
+	.tablet {
+		position: relative;
+		right: 3%;
+	}
+
+	.airplane {
+		margin-top: 50%;
+		transform: translate(0,-50%);
+		padding: 3em;
+	}
+
+	.logo {
+		max-width: 25em;
+		margin-top: 1.5em;
+	}
+
+}
+
+@media only screen and (min-width: 40em){
 	.mh .hero {
 		background-image: url("../images/maximus-hair/mh-header-desktop.jpg");
 	}
@@ -597,39 +749,67 @@ footer .social {
 	.lp .hero {
 		background-image: url("../images/landing-page/lp-header-desktop.jpg");
 	}
-
-	section {
-		padding: 0 3em;
-	}
-
 }
 
-@media screen and (min-width: 62em){
+@media only screen and (min-width: 62em){
 
 	.home .hero {
 		padding: 7em 15%;
 		margin: 0;
 	}
 	
+	.button {
+		margin: 3em 0 1em;
+	}
+
 	.col-sm {
 		margin: 2%;
 	}
 
-	.container {
+	.home .container {
 		max-width: 85%;
 		margin-top: 3em;
 	}
 
 	section p,
 	section ol,
-	section img {
+	.final {
 		display: block;
 		max-width: 60em;
 		margin: 0 auto;
 	}
 
+	section img {
+		max-width: 50em;
+	}
+
+	.container .project-caption {
+		font-size: 1.1em;
+	}
+
 }
 
+@media only screen and (min-width: 75em){
+	section p,
+	pre[class*="language-"],
+	.container {
+		max-width: 62em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.home .container,
+	.about-blurb {
+		max-width: 70em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	section p {
+		padding: 0 0 0.5em;
+	}
+
+}
 
 
 

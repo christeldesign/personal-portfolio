@@ -34,17 +34,37 @@
 	<article>
 		<h3>Design</h3>
 		<p>Since the company is relatively new, the logo is straightforward to emphasize the company name. I used shades of blue and green to emphasize the eco-friendly appeal of the brand, while the rounded logo font and soft steam-like shapes allude to the steam used in SteamWox cleaning machines.</p>
+		<img src="images/steamwox/sw-logo.png" class="logo" alt="SteamWox Logo">
+
 	</article>
 </section>	
 
 <section class="final">
 	<h2>Final Products</h2>
-	<img src="images/steamwox/sw-logo.png" class="logo">
-	<img src="images/steamwox/sw-businesscards.png" alt="SteamWox Products Business Cards" class="business-cards">
-	<img src="images/steamwox/sw-businesscards2.png" alt="SteamWox Products Business Cards" class="business-cards">
-	<img src="images/steamwox/sw-screenshot-mobile.png" alt="SteamWox Products Mobile" class="mobile">
-	<img src="images/steamwox/sw-screenshot-tablet.png" alt="SteamWox Products Tablet" class="tablet">
-	<img src="images/steamwox/sw-screenshot-desktop.png" alt="SteamWox Products Desktop" class="desktop">
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm">
+				<img src="images/steamwox/sw-businesscards.png" alt="SteamWox Products Business Cards" class="business-cards">
+			</div>
+			<div class="col-sm">
+				<img src="images/steamwox/sw-businesscards2.png" alt="SteamWox Products Business Cards" class="business-cards">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm">
+				<img src="images/steamwox/sw-screenshot-mobile.png" alt="SteamWox Products Mobile" class="mobile">
+			</div>
+			<div class="col-sm">
+				<img src="images/steamwox/sw-screenshot-tablet.png" alt="SteamWox Products Tablet" class="tablet">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm">
+				<img src="images/steamwox/sw-screenshot-desktop.png" alt="SteamWox Products Desktop" class="desktop">
+			</div>
+		</div>
+	</div>
 	<a class="button" href="christelchan.com/andrews-portfolio">View Live</a>
 </section>
 		
