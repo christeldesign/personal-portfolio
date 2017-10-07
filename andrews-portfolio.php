@@ -164,7 +164,7 @@
 			</div>			
 		</div>
 	<a class="button" href="http://ychan.bcitwebdeveloper.ca/andrew-portfolio/" target="blank">View Live</a>
-	<a href="index.php#work" class="back" target="blank">&lsaquo; Back to projects</a>
+	<a href="index.php#work" class="back">&lsaquo; Back to projects</a>
 </section>
 		
 </main>
