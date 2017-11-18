@@ -7,7 +7,7 @@
 <main>
 
 <div class="hero">
-
+	<img src="images/pattern.svg" alt="" class="pattern-svg">
 		<article class="about-blurb">
 			<h1>Christel Chan</h1>
 			<h2>Front-End Web Developer</h2>

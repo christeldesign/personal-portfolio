@@ -82,7 +82,7 @@ h3,
 .button {
 	font-family: 'Lato', sans-serif;
 	font-weight: bold;
-	letter-spacing: 0.15em;
+	letter-spacing: 2px;
 }
 
 h1 {
@@ -109,7 +109,8 @@ h3 {
 }
 
 h1:after,
-h3:after{
+h3:after,
+.about-blurb h2:after {
 	content: "";
 	display: block;
 	width: 3.5em;
@@ -380,6 +381,8 @@ article:last-of-type {
 .home .hero {
 	background-color: #e8dfd6;
 	padding: 6em 0;
+	position: relative;
+	overflow: hidden;
 }
 
 .about-blurb {
@@ -389,10 +392,29 @@ article:last-of-type {
 	margin-bottom: 0;
 }
 
-.about-blurb h1,
+.pattern-svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: auto;
+}
+
 nav h1 {
 	font-size: 2em;
 	margin: 0 auto;
+}
+
+.about-blurb h1 {
+	font-size: 2.4em;
+	line-height: 0;
+	color: transparent;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform: uppercase;
+	text-shadow: 2px 3px 0 #dbcdbe;
+	-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color: black;
+   	margin-bottom: 0.7em;
 }
 
 nav h1 {
@@ -401,15 +423,22 @@ nav h1 {
 
 .about-blurb h2,
 nav h2 {
-	text-transform: uppercase;
-	font-size: 1em;
-	letter-spacing: 3px;
+	font-size: 1.1em;
+	letter-spacing: 1px;
 	margin: 0.5em auto 2em;
 }
 
-.about-blurb h1:after,
 nav h1:after {
 	margin: 0.3em auto 0.4em;
+}
+
+.about-blurb h2:after {
+	margin-top: 1.5em;
+	width: 7em;
+}
+
+.about-blurb h1:after{
+	display: none;
 }
 
 .about-blurb .button {
@@ -653,6 +682,14 @@ footer .social {
 /*------------------------ Media Queries ---------------------------*/
 
 @media screen and (min-width: 36em){
+
+	.about-blurb h1 {
+		font-size: 3em;
+	}
+
+	.about-blurb h2 {
+		font-size: 1.3em;
+	}
 
 	.container {
 		max-width: 100%;

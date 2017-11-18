@@ -19,7 +19,7 @@
 	<h1 class="project-title">Landing Page</h1>
 	<div class="tools"></div>
 	<p>A one-page landing site to showcase my BCIT in-class projects. This was one of the first projects in our BCIT Technical Web Design Program, and we were given much creative freedom. I created a artistic site that illustrated each project as a whimsical house on a street. Though aesthetically pleasing, I have since learnt about accessibility, user-experience and responsive design, and would not create such a graphic-heavy site that relied so much on images as a form of navigation.</p>
-	<a class="button" href="http://ychan.bcitwebdeveloper.ca/" target="blank">View Live</a>
+	<a class="button" href="http://christelchan.com/landing-page/" target="blank">View Live</a>
 
 </section>
 
@@ -92,7 +92,7 @@
 <section class="final">
 	<h2>Final Website</h2>
 	<img src="images/landing-page/lp-screenshot.png" alt="Landing Page Screenshot">
-	<a class="button" href="http://ychan.bcitwebdeveloper.ca/"  target="blank">View Live</a>
+	<a class="button" href="http://christelchan.com/landing-page/"  target="blank">View Live</a>
 	<a href="index.php#work" class="back">&lsaquo; Back to projects</a>
 
 </section>
