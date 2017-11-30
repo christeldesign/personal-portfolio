@@ -523,6 +523,10 @@ nav h1:after {
 	background-image: url("../images/landing-page/lp-header-mobile.jpg");
 }
 
+.src .hero {
+	background-image: url("../images/sirocco/src-header-mobile.jpg");	
+}
+
 .tools {
 	display: flex;
 	justify-content: center;
@@ -828,6 +832,10 @@ footer .social {
 	.lp .hero {
 		background-image: url("../images/landing-page/lp-header-desktop.jpg");
 	}
+
+	.src .hero {
+	background-image: url("../images/sirocco/src-header-desktop.jpg");	
+}
 
 	.project-caption {
 		padding-top: 30%;

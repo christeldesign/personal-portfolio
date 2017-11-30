@@ -1,6 +1,6 @@
 <?php 
-	$pageTitle = "Maximus Hair Studio Website | Christel Chan's Portfolio";
-	$pageClass = 'single mh';
+	$pageTitle = "Sirocco Products Website | Christel Chan's Portfolio";
+	$pageClass = 'single src';
 	include ('templates/header.php');
 ?>
 
@@ -9,20 +9,17 @@
 <div class="hero"></div>
 
 <section class="project-blurb">
-	<h1 class="project-title">Maximus Hair Studio</h1>
+	<h1 class="project-title">Sirocco Products</h1>
 	<div class="tools">
 		<img src="images/icons/sketch.svg" class="svg" alt="sketch icon">
 		<img src="images/icons/photoshop.svg" class="svg" alt="photoshop icon">
 		<img src="images/icons/illustrator.svg" class="svg" alt="illustrator icon">
-		<img src="images/icons/github.svg" class="svg" alt="github icon">
 		<img src="images/icons/html.svg" class="svg" alt="html icon">
 		<img src="images/icons/css.svg" class="svg" alt="css icon">
 		<img src="images/icons/wordpress.svg" class="svg" alt="wordpress icon">
-		<img src="images/icons/sass.svg" class="svg" alt="sass icon">
-		<img src="images/icons/jquery.svg" class="svg" alt="jquery icon">
 	</div>
 	<p>A five page website for a local hair salon looking to expand their business with a new location and new website. I worked in a team of 4 for this project, and worked with gulp.js, SASS and Github to streamline our workflow. We communicated with the client frequently and collaborated effectively to create a well-functioning and modern responsive WordPress website. In this project, I worked extensively on both design and development, including registering all Custom Post Types and Taxonomies, building interactive scripts such as the hamburger menu and accordion FAQ, and more.</p>
-	<a class="button" href="https://maximushairdavie.com/" target="blank">View live</a>
+	<a class="button" href="http://staging.christelchan.com/" target="blank">View staging</a>
 
 </section>
 
@@ -113,19 +110,19 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm">
-				<img src="images/maximus-hair/mh-screenshot-mobile.png" alt="Maximus Hair Mobile" class="mobile">
+				<img src="images/sirocco/src-screenshot-mobile.png" alt="Sirocco Products Mobile" class="mobile">
 			</div>
 			<div class="col-sm">
-				<img src="images/maximus-hair/mh-screenshot-tablet.png" alt="Maximus Hair Tablet" class="tablet">
+				<img src="images/sirocco/src-screenshot-tablet.png" alt="Sirocco Products Tablet" class="tablet">
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm">
-				<img src="images/maximus-hair/mh-screenshot-desktop.png" alt="Maximus Hair Desktop" class="desktop">
+				<img src="images/sirocco/src-screenshot-desktop.png" alt="Sirocco Products Desktop" class="desktop">
 			</div>
 		</div>
 	</div>
-	<a class="button" href="https://maximushairdavie.com/" target="blank">View live</a>
+	<a class="button" href="http://staging.christelchan.com/" target="blank">View staging</a>
 	<a href="index.php#work" class="back">&lsaquo; Back to projects</a>
 
 </section>

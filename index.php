@@ -25,6 +25,11 @@
 		<div class="row">
 
 			<div class="col-sm">
+		    	<a href="sirocco.php"><img src="images/sirocco/src-mockup.jpg" alt="Sirocco Products Thumbnail" class="project-thumbnail"></a>
+		    	<a href="maximus-hair.php" class="project-caption">Sirocco Products (Staging)</a>
+		    </div>
+
+			<div class="col-sm">
 		    	<a href="maximus-hair.php"><img src="images/maximus-hair/mh-mockup.jpg" alt="Maximus Hair Salon Thumbnail" class="project-thumbnail"></a>
 		    	<a href="maximus-hair.php" class="project-caption">Maximus Hair Salon</a>
 		    </div>
@@ -34,14 +39,14 @@
 		    	<a href="personal-portfolio.php" class="project-caption">Personal Portfolio</a>
 		    </div>
 
-		    <div class="col-sm">
+		</div>
+
+		<div class="row">
+
+		 	<div class="col-sm">
 		    	<a href="andrews-portfolio.php"><img src="images/andrews-portfolio/ap-mockup-2.jpg" alt="Andrew's Portfolio Thumbnail" class="project-thumbnail"></a>
 		    	<a href="andrews-portfolio.php" class="project-caption">Andrew's Portfolio</a>
 		    </div>
-
-		 </div>
-
-		 <div class="row">
 
 		 	<div class="col-sm">
 		    	<a href="steamwox.php"><img src="images/steamwox/sw-mockup-2.jpg" alt="SteamWox Products Thumbnail" class="project-thumbnail"></a>
@@ -53,12 +58,16 @@
 		    	<a href="jj-tutorial.php" class="project-caption">jQuery Tutorial</a>
 		    </div>
 
+		</div>
+
+		<div>
+
 		    <div class="col-sm">
 		    	<a href="landing-page.php"><img src="images/landing-page/lp-mockup-2.jpg" alt="Landing Page Thumbnail" class="project-thumbnail"></a>
 		    	<a href="landing-page.php" class="project-caption">Landing Page</a>
 		    </div>
 
-		 </div>
+		</div>
 	</div>
 </section>	
 		
