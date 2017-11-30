@@ -14,6 +14,7 @@
 			<p>My name is Christel and I am an enthusiastic front-end developer with hands-on project experience and a fervent desire to create highly functional and customized websites that are also beautiful. A graduate of the Technical Web Designer program at BCIT, a six-month, intensive program exploring front-end design, responsive design, custom Wordpress theme development and more. A lover of being creative, art & design, and big dogs.
 			</p>
 			<a href='my-story.php' class="button btn-primary" data-toggle="modal" data-target="#exampleModal">More About Me</a>
+			<a href='#work' class="button">View Projects</a>
 
 
 			<!-- About Me Modal -->
@@ -40,10 +41,10 @@
 						<div id="slider" class="carousel slide" data-ride="carousel">
 
 						  <ol class="carousel-indicators">
-						    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-						    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-						    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-						    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+						    <li data-target="#slider" data-slide-to="0" class="active"></li>
+						    <li data-target="#slider" data-slide-to="1"></li>
+						    <li data-target="#slider" data-slide-to="2"></li>
+						    <li data-target="#slider" data-slide-to="3"></li>
 						  </ol>
 
 						  <div class="carousel-inner">
@@ -67,9 +68,9 @@
 						</div>
 
 					</article>
-			      </div>
-			      <div class="modal-footer">
-			        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+					<button type="button" class="button" data-dismiss="modal">Close</button>
+
 			      </div>
 			    </div>
 			  </div>
