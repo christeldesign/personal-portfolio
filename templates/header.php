@@ -19,13 +19,13 @@
 
 <header>
 
-<div class="hamburger">
+<!-- <div class="hamburger">
 	<div class="bar"></div>
-</div>
+</div> -->
 
-<div class="site-branding"></div>
-
-<nav class="main-nav">
+<!-- <div class="site-branding"></div>
+ -->
+<!-- <nav class="main-nav">
 
 	<h1>Christel Chan</h1>
 	<h2>Front-End Web Developer</h2>
@@ -45,6 +45,6 @@
 		<a href="https://github.com/christeldesign" target="blank"><i class="fa fa-github-alt fa-lg" aria-hidden="true"></i></a>
 		<a href="https://codepen.io/christeldesign/"><i class="fa fa-codepen fa-lg" aria-hidden="true"></i></a>
 	</div>
-</nav>
+</nav> -->
 
 </header>

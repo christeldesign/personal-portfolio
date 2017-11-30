@@ -445,11 +445,15 @@ nav h1:after {
 	margin-top: 1em;
 }
 
-.welcome-banner {
-	position: absolute;
-	left: 0;
-	top: -3em;
-	padding: 0 1em;
+@media (min-width: 576px){
+	.modal-dialog {
+	    max-width: 80%;
+	    margin: 50px auto;
+	}
+}
+
+.modal-content {
+	width: 100%;
 }
 
 .container {
@@ -601,7 +605,7 @@ pre {
 	margin: 0 auto;
 	border-radius: 50%;
 	overflow: hidden;
-	margin-top: 5em;
+	margin-top: 2em;
 }
 
 .about section:last-of-type{
@@ -612,6 +616,21 @@ pre {
 	display: block;
 	max-width: 35em;
 	margin: 2em auto;
+}
+
+.slide {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.carousel-inner {
+	max-height: 400px;
+}
+
+.carousel-item img {
+	height: 400px;
+	width: auto;
+	margin: 0 auto;
 }
 
 /* Footer */

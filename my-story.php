@@ -21,13 +21,36 @@
 
 	<article>
 		<p>Here is some of my work outside of web development.</p>
-			<img src="images/about/night.png" alt="Painting">
 
-			<img src="images/about/car2go.png" alt="Painting on Car2Go">
 
-			<img src="images/about/dayoff.png" alt="Painting">
+		<div id="slider" class="carousel slide" data-ride="carousel">
 
-			<img src="images/about/panda.jpg" alt="Painting">
+		  <ol class="carousel-indicators">
+		    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+		  </ol>
+
+		  <div class="carousel-inner">
+
+		    <div class="carousel-item active">
+				<img src="images/about/night.png" alt="Painting">
+		    </div>
+		    <div class="carousel-item">
+				<img src="images/about/car2go.png" alt="Painting on Car2Go">
+		    </div>
+		    <div class="carousel-item">
+				<img src="images/about/dayoff.png" alt="Painting">
+
+		    </div>
+		    <div class="carousel-item">
+				<img src="images/about/panda.jpg" alt="Painting">
+		    </div>
+
+		  </div>
+
+		</div>
 
 	</article>
 </section>
