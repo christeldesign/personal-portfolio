@@ -21,6 +21,7 @@
 	</div>
 	<p>A portfolio website to showcase my web development and design projects. My vision was to create a clean, user-friendly website while still integrating subtle, unique elements, such as the logo animation, hand-drawn patterns, and hover effects . I also used this opportunity to develop a mobile-first experience, experiment with Bootstrap for layout,  as well as continue practicing Github for version control. </p>
 	<a class="button" href="http://christelchan.com/" target="blank">View Live</a>
+	<a href="index.php#work" class="back">&lsaquo; Back to projects</a>
 
 </section>
 

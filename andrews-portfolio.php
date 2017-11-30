@@ -19,6 +19,7 @@
 	</div>	
 	<p>A one-page portfolio website for a local electrical engineer to display his achievements. The scope of this project was to practice developing responsive designs using several techniques we learnt in our BCIT program, such as media queries, picture elements, and more. I developed complex custom animation based on the client’s request, and optimized them for different device sizes using conditional jQuery.</p>
 	<a class="button" href="http://christelchan.com/andrew-portfolio/" target="blank">View Live</a>
+	<a href="index.php#work" class="back">&lsaquo; Back to projects</a>
 
 </section>
 

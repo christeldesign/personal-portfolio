@@ -19,6 +19,8 @@
 	</div>
 	<p>As brand designer for SteamWox Products Ltd., a new local manufacturer specializing in environmentally-friendly cleaning machines, I created all branding collateral, including logos, brochures, and the company webesite. I built a full customized WordPress theme to allow the client to have appropriate control of the content.</p>
 	<a class="button" href="http://steamwox.ca/" target="blank">View Live</a>
+	<a href="index.php#work" class="back">&lsaquo; Back to projects</a>
+
 
 </section>
 
