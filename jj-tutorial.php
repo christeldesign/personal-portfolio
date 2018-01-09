@@ -29,7 +29,7 @@
 
 	<article>
 		<h3>Ideation</h3>
-		<p>I wanted the concept of the website to drive the development, so that the final result would have a cohesive storyline. I thought of ideas like a dimsum restaurant…etc. In the end I settled on the concept of flying a paper airplane with the following tutorials:</p>
+		<p>I wanted the concept of the website to drive the development, so that the final result would have a cohesive storyline. I thought of ideas like a dimsum restaurant and others. In the end I settled on the concept of flying a paper airplane with the following tutorials:</p>
 
 			<p>1. A slideshow to allow users to choose the origami paper of their choice</p>
 			<p>2. A function that folds the origami paper on each click to &quot;fold&quot; a paper airplane</p>

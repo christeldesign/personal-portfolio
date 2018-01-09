@@ -17,7 +17,7 @@
 		<img src="images/icons/css.svg" class="svg" alt="css icon">
 		<img src="images/icons/jquery.svg" class="svg" alt="jquery icon">
 	</div>	
-	<p>A one-page portfolio website for a local electrical engineer to display his achievements. The scope of this project was to practice developing responsive designs using several techniques we learnt in our BCIT program, such as media queries, picture elements, and more. I developed complex custom animation based on the client’s request, and optimized them for different device sizes using conditional jQuery.</p>
+	<p>A one-page portfolio website for a local electrical engineer to display his achievements. The scope of this project was to practice developing responsive designs using several techniques we learnt in our BCIT program, such as media queries, picture elements, and more. I developed complex custom animation based on the client&apos;s request, and optimized them for different device sizes using conditional jQuery.</p>
 	<a class="button" href="http://christelchan.com/andrew-portfolio/" target="blank">View Live</a>
 	<a href="index.php#work" class="back">&lsaquo; Back to projects</a>
 
@@ -42,7 +42,7 @@
 			</figure>
 		</div>
 
- 		<p>He was open to design choices as long as they conveyed a “friendly but professional” vibe. We agreed that the first style tile had a more cohesive colour palette and font choice, so I designed mockups based on it.</p>
+ 		<p>He was open to design choices as long as they conveyed a friendly but professional vibe. We agreed that the first style tile had a more cohesive colour palette and font choice, so I designed mockups based on it.</p>
 
  		<div class="container">
  			<div class="row">

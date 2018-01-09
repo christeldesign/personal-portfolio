@@ -35,6 +35,11 @@
 		<p>The client particularly wanted the website to include a gallery page with photos of past work, a FAQ to answer questions about specialty perms, as well as areas of the website that convey that the salon is welcoming of everyone and pets.</p> 
 
 		<figure>
+			<img src="images/maximus-hair/cardsorting.jpg" alt="Maximus Hair Studio Website Card Sorting" style="padding: 0 1em;" class="">
+			<figcaption>Card sorting to form the initial information architecture</figcaption>
+		</figure>
+
+		<figure>
 			<img src="images/maximus-hair/site-map.png" alt="Maximus Hair Studio Website Site Map" style="padding: 0 1em;" class="">
 			<figcaption>Sitemap created from initial information architecture</figcaption>
 		</figure>
