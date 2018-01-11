@@ -85,6 +85,11 @@
 		<div class="row">
 
 			<div class="col-sm">
+		    	<a href="bias-test.php"><img src="images/bias-test/bt-mockup.jpg" alt="Bias Test Thumbnail" class="project-thumbnail"></a>
+		    	<a href="bias-test.php" class="project-caption">HRx Bias Test (Staging)</a>
+		    </div>
+
+			<div class="col-sm">
 		    	<a href="sirocco.php"><img src="images/sirocco/src-mockup.jpg" alt="Sirocco Products Thumbnail" class="project-thumbnail"></a>
 		    	<a href="sirocco.php" class="project-caption">Sirocco Products (Staging)</a>
 		    </div>
@@ -94,14 +99,15 @@
 		    	<a href="maximus-hair.php" class="project-caption">Maximus Hair Salon</a>
 		    </div>
 
-		    <div class="col-sm">
-		    	<a href="http://christelchan-todoapp.surge.sh/" target="blank"><img src="images/todo-app/td-mockup.jpg" alt="React To Do App" class="project-thumbnail"></a>
-		    	<a href="http://christelchan-todoapp.surge.sh/" class="project-caption" target="blank">React.js To Do App</a>
-		    </div>
 
 		</div>
 
 		<div class="row">
+
+		    <div class="col-sm">
+		    	<a href="http://christelchan-todoapp.surge.sh/" target="blank"><img src="images/todo-app/td-mockup.jpg" alt="React To Do App" class="project-thumbnail"></a>
+		    	<a href="http://christelchan-todoapp.surge.sh/" class="project-caption" target="blank">React.js To Do App</a>
+		    </div>
 
 			<div class="col-sm">
 		    	<a href="http://christelchan-weatherapp.surge.sh/" target="blank"><img src="images/weather-app/wa-mockup.jpg" alt="React Weather App" class="project-thumbnail"></a>
@@ -113,15 +119,14 @@
 		    	<a href="personal-portfolio.php" class="project-caption">Personal Portfolio</a>
 		    </div>
 
-
-		 	<div class="col-sm">
-		    	<a href="steamwox.php"><img src="images/steamwox/sw-mockup-2.jpg" alt="SteamWox Products Thumbnail" class="project-thumbnail"></a>
-		    	<a href="steamwox.php" class="project-caption">SteamWox Products</a>
-		    </div>
-
 		</div>
 
 		<div class="row">
+
+			<div class="col-sm">
+		    	<a href="steamwox.php"><img src="images/steamwox/sw-mockup-2.jpg" alt="SteamWox Products Thumbnail" class="project-thumbnail"></a>
+		    	<a href="steamwox.php" class="project-caption">SteamWox Products</a>
+		    </div>
 
 			<div class="col-sm">
 		    	<a href="andrews-portfolio.php"><img src="images/andrews-portfolio/ap-mockup-2.jpg" alt="Andrew's Portfolio Thumbnail" class="project-thumbnail"></a>
@@ -133,12 +138,23 @@
 		    	<a href="jj-tutorial.php" class="project-caption">jQuery Tutorial</a>
 		    </div>
 
+
+		</div>
+
+		<div class="row">
+
 		    <div class="col-sm">
 		    	<a href="landing-page.php"><img src="images/landing-page/lp-mockup-2.jpg" alt="Landing Page Thumbnail" class="project-thumbnail"></a>
 		    	<a href="landing-page.php" class="project-caption">Landing Page</a>
 		    </div>
 
+		    <div class="col-sm">
 
+		    </div>
+		    <div class="col-sm">
+
+		    </div>
+		    
 
 		</div>
 	</div>

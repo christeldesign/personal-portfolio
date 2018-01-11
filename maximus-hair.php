@@ -22,7 +22,7 @@
 		<img src="images/icons/jquery.svg" class="svg" alt="jquery icon">
 	</div>
 	<p>A five page website for a local hair salon looking to expand their business with a new location and new website. I worked in a team of 4 for this project, and worked with gulp.js, SASS and Github to streamline our workflow. We communicated with the client frequently and collaborated effectively to create a well-functioning and modern responsive WordPress website. In this project, I worked extensively on both design and development, including registering all Custom Post Types and Taxonomies, building interactive scripts such as the hamburger menu and accordion FAQ, and more.</p>
-	<a class="button" href="https://maximushairdavie.com/" target="blank">View live</a>
+	<a class="button" href="https://hrx-biastest.firebaseapp.com/" target="blank">View live</a>
 	<a href="index.php#work" class="back">&lsaquo; Back to projects</a>
 
 </section>

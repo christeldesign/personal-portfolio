@@ -565,6 +565,10 @@ nav h1:after {
 	background-image: url("../images/sirocco/src-header-mobile.jpg");	
 }
 
+.bt .hero {
+	background-image: url("../images/bias-test/bt-header-mobile.jpg");	
+}
+
 .tools {
 	display: flex;
 	justify-content: center;
@@ -932,7 +936,12 @@ footer .social {
 	}
 
 	.src .hero {
-	background-image: url("../images/sirocco/src-header-desktop.jpg");	
+		background-image: url("../images/sirocco/src-header-desktop.jpg");	
+	}
+
+	.bt .hero {
+		background-image: url("../images/bias-test/bt-header-desktop.jpg");	
+	}
 }
 
 	.project-caption {
